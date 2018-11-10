@@ -369,9 +369,6 @@ void CubeTest_update()
 }
 void CubeTest_prepare()
 {
- clock_gettime(CLOCK_MONOTONIC, &temp_timespec);
- game_time_0 = temp_timespec; 
-
  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 

@@ -2,12 +2,8 @@
 
 #include <GLES/gl.h>
 
-
-
 //Unsigned integer type for holding count of objects
 typedef unsigned long int ifTCounter;
-
-
 
 //Structure holding list of functions that can be executed on body
 
@@ -17,6 +13,7 @@ typedef struct{
  unsigned int stride;
  GLfloat *elements;
 }ifTvertices, ifTcolors, ifTUVmapping;
+
 typedef struct{
  ifTCounter elements_cnt;
  unsigned int stride;
@@ -60,7 +57,7 @@ typedef struct{
  void *subscribers_data;
 }ifTevent;
 
-//Structure for holding all events that get called by program
+//Structure for holding all events 
 typedef struct {
  ifTCounter event_cnt;
  ifTevent *events;
@@ -69,6 +66,7 @@ typedef struct {
 
 
 //Structure holding events body reacts to
+
 
 
 //Functions for adding, removing, searching for a body in a list of bodies
