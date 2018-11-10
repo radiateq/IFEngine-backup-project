@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images -->
+<html itemscope="" itemtype="http://schema.org/QAPage" class="html__responsive"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>How do I convert ppi into dpi for Android images? - Stack Overflow</title>
+        <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+        <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+        <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="https://stackoverflow.com/opensearch.xml">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images">
+        <meta property="og:site_name" content="Stack Overflow">
+        <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:domain" content="stackoverflow.com">
+        <meta name="twitter:title" property="og:title" itemprop="title name" content="How do I convert ppi into dpi for Android images?">
+        <meta name="twitter:description" property="og:description" itemprop="description" content="I have started making graphics for my Android app using Adobe Photoshop. But I am unable to proceed, as the resolution in Photoshop is set in pixels per inch where as the official Google documentat...">
+        <script src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/rules-p-c1rF4kxgLUzNc.js.download" async=""></script><script async="" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/quant.js.download"></script><script async="" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/beacon.js.download"></script><script async="" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/analytics.js.download"></script><script src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/jquery.min.js.download"></script>
+        <script src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/stub.en.js.download"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/stacks.css">
+    <link rel="stylesheet" type="text/css" href="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/primary-unified.css">
+
+    
+            <link rel="alternate" type="application/atom+xml" title="Feed for question &#39;How do I convert ppi into dpi for Android images?&#39;" href="https://stackoverflow.com/feeds/question/6930031">
+            <meta name="twitter:app:country" content="US">
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:iphone" content="871299723">
+            <meta name="twitter:app:url:iphone" content="se-zaphod://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images">
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:ipad" content="871299723">
+            <meta name="twitter:app:url:ipad" content="se-zaphod://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images">
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="http://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+
+            StackExchange.ready(function () {
+                                    
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:4,shownCommentCount:4,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:6930031});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('1', '6930031');
+                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script>
+
+        
+        
+        
+        
+        
+        
+                <script>
+        StackExchange.init({"locale":"en","serverTime":1541842777,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"768a2ba6110a389736566cf2a5f0b70238bc380a11ee0750000ba48dd28a3a94","tid":"fe537d8d-8567-242a-447e-93addf1a1550","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hero_signup_button":{"v":"team_create_cta_e","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/svg-icons","svgIconHash":"6f0648818cc2"}, {"site":{"allowImageUploads":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true,"stacksValidation":true},"userMessaging":{"showNewFeatureNotice":true},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"03693a1988e4","js/moderator.en.js":"c48addfbc3c8","js/full-anon.en.js":"83a54bf27e98","js/full.en.js":"2fb2c61af72a","js/wmd.en.js":"97765ada975f","js/mobile.en.js":"b2ba616274c8","js/help.en.js":"bbea3af4c29d","js/tageditor.en.js":"4c185f25deff","js/tageditornew.en.js":"7f69209e26aa","js/inline-tag-editing.en.js":"f21743dcffa4","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"2ae7a6e727f9","js/tagsuggestions.en.js":"ddb0e41afe26","js/post-validation.en.js":"d3122dde431e","js/explore-qlist.en.js":"a5d8f71511e1","js/events.en.js":"59ad00bcf563","js/keyboard-shortcuts.en.js":"1db318397498","js/external-editor.en.js":"2f8d23e02b3a","js/adops.en.js":"22a9bd59b1e9","js/begin-edit-event.en.js":"bd162c747cb5","js/external-editor.en.js":"2f8d23e02b3a","js/snippet-javascript.en.js":"ab76fd99422a","js/snippet-javascript-codemirror.en.js":"1f9dd8474c0c"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    <noscript id="noscript-css"><style>body,.top-bar{margin-top:1.9em}</style></noscript>
+    <style type="text/css">:root div[id^="adzerk"], :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5, :root a[href^="http://ffxitrack.com/"], :root a[href^="http://ad-apac.doubleclick.net/"], :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"], :root #\5f _mom_ad_2, :root #rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"], :root #\5f _admvnlb_modal_container, :root #MAIN.ShowTopic > .ad, :root a[href^="http://pubads.g.doubleclick.net/"], :root .GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-, :root #main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"], :root div[class*="-storyBodyAd-"], :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs, :root a[href^="http://ul.to/ref/"], :root #\5f _nq__hh[style="display:block!important"], :root a[href^="http://cdn.adstract.com/"], :root a[href^="//tracking.content-recommendation.net/"][href*="/sponsored/click.html?"], :root div[class^="ads-partner-"], :root #\5f _mom_ad_12, :root a[href^="http://lp.ncdownloader.com/"], :root a[href^="https://fileboom.me/pr/"], :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"], :root div[id^="google_ads_iframe_"], :root #ads > .dose > .dosesingle, :root a[href^="http://3wr110.net/"], :root a[href^="http://bestorican.com/"], :root div[id^="ad_script_"], :root a[href^="http://get.slickvpn.com/"], :root .gbfwa > div[class$="_item"], :root #assetsListings[style="display: block;"], :root #center_col > #\5f Emc, :root a[href^="http://marketgid.com"], :root #rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div, :root a[href^="http://go.mobisla.com/"], :root #center_col > #res > #topstuff + #search > div > #ires > #rso > #flun, :root a[href^="http://www.webtrackerplus.com/"], :root a[href^="http://www.affbuzzads.com/affiliate/"], :root #center_col > #resultStats + #tads, :root #main-content > [style="padding:10px 0 0 0 !important;"], :root #center_col > #resultStats + #tads + #res + #tads, :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp, :root a[href^="http://www.paddypower.com/?AFF_ID="], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"], :root #center_col > #resultStats + div + #res + #tads, :root div[id^="crt-"][style], :root div[class^="Ad__container"], :root a[href^="http://centertrust.xyz/"], :root a[href^="http://g1.v.fwmrm.net/ad/"], :root a[href^="http://www.fbooksluts.com/"], :root #center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"], :root a[href^="http://ads.integral-marketing.com/"], :root div[id^="advads_"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root .__y_inner > .__y_item, :root div[id^="ads300_100-widget"], :root #center_col > #taw > #tvcap > .rscontainer, :root #center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"], :root div[id^="MarketGid"], :root a[href^="https://www.financeads.net/tc.php?"], :root #cnt #center_col > #res > #topstuff > .ts, :root #content > #center > .dose > .dosesingle, :root a[href^="http://www.text-link-ads.com/"], :root #content > #right > .dose > .dosesingle, :root #flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"], :root a[href^="http://ads.betfair.com/redirect.aspx?"], :root #flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"], :root a[href*="emprestimo.eu"], :root #header + #content > #left > #rlblock_left, :root a[href^="http://9amq5z4y1y.com/"], :root .__zinit .__y_item, :root a[href^="//40ceexln7929.com/"], :root #mbEnd[cellspacing="0"][cellpadding="0"], :root a[href^="http://banners.victor.com/processing/"], :root #mn #center_col > div > h2.spon:first-child, :root .ch[onclick="ga(this,event)"], :root a[href^="//go.vedohd.org/"], :root #mn #center_col > div > h2.spon:first-child + ol:last-child, :root a[href^="http://affiliate.coral.co.uk/processing/"], :root div[id^="yandex_ad"], :root #mn div[style="position:relative"] > #center_col > ._Ak, :root a[href*=".clksite.com/"], :root #mn div[style="position:relative"] > #center_col > div > ._dPg, :root .__yinit .__y_item, :root a[href^="http://finaljuyu.com/"], :root div[id^="mainads"], :root #rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"], :root #resultspanel > #topads, :root #rhs_block > #mbEnd, :root #rhs_block .mod > .gws-local-hotels__booking-module, :root #rhs_block .xpdopen > ._OKe > div > .mod > ._yYf, :root a[href^="http://data.ad.yieldmanager.net/"], :root .mw > #rcnt > #center_col > #taw > #tvcap > .c, :root #rhs_block > script + .c._oc._Ve.rhsvw, :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root a[href*="deliver.trafficfabrik.com"], :root a[href^="http://track.adform.net/"], :root #tads + div + .c, :root #rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"], :root a[href^="http://admingame.info/"], :root #ssmiwdiv[jsdisplay], :root a[href^="http://www.dealcent.com/register.php?affid="], :root #topstuff > #tads, :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5, :root a[href^="http://www.linkbucks.com/referral/"], :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5, :root .GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5, :root a[href^="https://ad.atdmt.com/"], :root .jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"], :root .__ywvr .__y_item, :root a[href^="//00ae8b5a9c1d597.com/"], :root a[href*=".qertewrt.com/"], :root a[href^="http://www.terraclicks.com/"], :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4, :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB, :root a[href^="http://4c7og3qcob.com/"], :root a[href^="http://aff.ironsocket.com/"], :root .Mpopup + #Mad > #MadZone, :root aside[itemtype="https://schema.org/WPAdBlock"], :root .__y_elastic .__y_item, :root a[href^="http://www.adxpansion.com"], :root .__ywl .__y_item, :root .l-container > #fishtank, :root .icons-rss-feed + .icons-rss-feed div[class$="_item"], :root a[href^="http://dethao.com/"], :root .lads[width="100%"][style="background:#FFF8DD"], :root iframe[src^="http://cdn2.adexprt.com/"], :root .mod > ._jH + .rscontainer, :root a[href^="http://clicks.binarypromos.com/"], :root .mw > #rcnt > #center_col > #taw > .c, :root .nrelate .nr_partner, :root a[href^="http://tezfiles.com/pr/"], :root .ob_container .item-container-obpd, :root a[href^="http://partner.sbaffiliates.com/"], :root a[href^="http://www.firstload.com/affiliate/"], :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"], :root a[href^="//srv.buysellads.com/"], :root a[href^="http://pwrads.net/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root .plistaList > .itemLinkPET, :root a[href^="http://www.download-provider.org/"], :root a[href^="//88d7b6aa44fb8eb.com/"], :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root .plista_widget_belowArticleRelaunch_item[data-type="pet"], :root a[href^="http://www.pinkvisualgames.com/?revid="], :root .ra[align="left"][width="30%"], :root a[href^="http://ads.affbuzzads.com/"], :root a[href^="http://promos.bwin.com/"], :root a[href^="http://tracker.mybroadband.co.za/"], :root .ra[align="right"][width="30%"], :root a[href^="http://bs.serving-sys.com/"], :root a[href^="http://api.content.ad/"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root .ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"], :root a[href^="http://n217adserv.com/"], :root .rc-cta[data-target], :root .rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"], :root .widget-pane-section-result[data-result-ad-type], :root a[href^="http://adserver.adtechus.com/"], :root .rscontainer > .ellip, :root .section-result[data-result-ad-type], :root .trc_rbox .syndicatedItem, :root .trc_rbox_border_elm .syndicatedItem, :root a[href^="http://taboola-"][href*="/redirect.php?app.type="], :root .trc_rbox_div .syndicatedItem, :root .trc_rbox_div .syndicatedItemUB, :root div[id^="div_openx_ad_"], :root .trc_rbox_div a[target="_blank"][href^="http://tab"], :root a[href^="//porngames.adult/?SID="], :root a[href^="http://engine.newsmaxfeednetwork.com/"], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href*="=exoclick"], :root a[href^="//zenhppyad.com/"], :root a[href^="http://ddownload39.club/"], :root .trc_related_container div[data-item-syndicated="true"], :root .vi-lb-placeholder[title="ADVERTISEMENT"], :root a[href^="http://landingpagegenius.com/"], :root a[href^="//api.ad-goi.com/"], :root a[href^="https://dcs.adgear.com/clicks/"], :root a[href^="http://refer.webhostingbuzz.com/"], :root AD-TRIPLE-BOX, :root ADS-RIGHT, :root a[href^="http://campaign.bharatmatrimony.com/track/"], :root a[href*="/adServe/banners?"], :root a[href^="https://www.secureupload.eu/suprerefid="], :root AFS-AD, :root a[href^="http://www.myvpn.pro/"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root AMP-AD, :root A[href^="https://www.friendlyduck.com/AF_"], :root a[href^="http://server.cpmstar.com/click.aspx?poolid="], :root a[href^="http://dwn.pushtraffic.net/"], :root [onclick^="window.open('window.open('//delivery.trafficfabrik.com/"], :root DFP-AD, :root FBS-AD, :root a[href^="http://clickandjoinyourgirl.com/"], :root div[id^="advads-"], :root a[href^="http://buysellads.com/"], :root LEADERBOARD-AD, :root a[href^="http://sharesuper.info/"], :root [ad-id^="googlead"], :root a[href^="http://www.ringtonematcher.com/"], :root [id*="MGWrap"], :root a[href^="//ads.ad-center.com/"], :root a[href^="http://websitedhoome.com/"], :root [id*="MarketGid"], :root [id*="ScriptRoot"], :root a[href="http://track.freemmo2017.com/"], :root [id^="bunyad_ads_"], :root a[href^="http://www.seekbang.com/cs/"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="http://games.ucoz.ru/"][target="_blank"], :root [lazy-ad="lefttop_banner"], :root [onclick*="content.ad/"], :root a[href^="http://see-work.info/"], :root a[href^="http://www.graboid.com/affiliates/"], :root a[href^="http://papi.mynativeplatform.com:80/pub2/"], :root [onclick^="window.open('http://adultfriendfinder.com/search/"], :root a[href^="http://www.ducksnetwork.com/"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root a[data-redirect^="http://click.plista.com/pets"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://go.ad2up.com/"], :root a[href^="http://adtransfer.net/"], :root a[href^="http://adclick.g.doubleclick.net/"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root div[class*="_AdInArticle_"], :root a[href^="https://track.clickmoi.xyz/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root a[href^="http://ad.yieldmanager.com/"], :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"], :root a[href^="http://lp.ezdownloadpro.info/"], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href$="/vghd.shtml"], :root a[href^="http://amzn.to/"] > img[src^="data"], :root a[href*=".adk2x.com/"], :root a[href^="//z6naousb.com/"], :root a[href^="//5e1fcb75b6d662d.com/"], :root a[href*=".adsrv.eacdn.com/"] > img, :root a[href^="//www.mgid.com/"], :root a[href^="http://www.clkads.com/adServe/"], :root a[href^="http://ad.doubleclick.net/"], :root a[href*=".approvallamp.club/"], :root a[href^="http://connectlinking6.com/"], :root div[id^="ad-position-"], :root a[href*=".bang.com/"][href*="&aff="], :root a[href*=".clkcln.com/"], :root a[href^="http://guideways.info/"], :root a[href*=".ichlnk.com/"], :root a[href*=".inclk.com/"], :root a[href*=".intab.fun/"], :root a[href*=".revimedia.com/"], :root a[href*=".trust.zone"], :root a[href^="http://www.1clickmoviedownloader.info/"], :root a[href^="http://feeds1.validclick.com/"], :root div[id^="dfp-ad-"], :root a[href*="/adrotate-out.php?"], :root a[href^="http://xtgem.com/click?"], :root a[href^="https://servedbyadbutler.com/"], :root a[href*="/cmd.php?ad="], :root a[href*="/servlet/click/zone?"], :root a[href^="http://ryushare.com/affiliate.python"], :root a[href*="5iclx7wa4q.com"], :root a[href^="http://feedads.g.doubleclick.net/"], :root a[href*="=Adtracker"], :root a[href^="http://www.downloadweb.org/"], :root a[href^="http://affiliates.score-affiliates.com/"], :root a[href*="=adscript"], :root iframe[id^="google_ads_frame"], :root a[href*="a2g-secure.com"], :root a[href*="ad2upapp.com/"], :root a[href*="delivery.trafficfabrik.com"], :root a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="], :root a[href^="//www.pd-news.com/"], :root a[href*="googleme.eu"], :root a[href*="letsadvertisetogether.com"], :root a[href*="onclkds."], :root a[href^="http://www.streamtunerhd.com/signup?"], :root a[href^="http://bonusfapturbo.nmvsite.com/"], :root a[href*="pussl3.com"], :root a[href^=" http://ads.ad-center.com/"], :root a[href^=" http://n47adshostnet.com/"], :root div[id^="ads300_250-widget"], :root a[href^=" http://www.sex.com/"][href*="&utm_"], :root a[href^="//4c7og3qcob.com/"], :root a[href^="http://join3.bannedsextapes.com/track/"], :root a[href^="//adbit.co/?a=Advertise&"], :root a[href^="http://secure.signup-way.com/"], :root a[href^="//bwnjijl7w.com/"], :root a[href^="//db52cc91beabf7e8.com/"], :root a[href^="http://tracking.deltamediallc.com/"], :root a[href^="//go.onclasrv.com/"], :root a[href^="//jsmptjmp.com/"], :root a[href^="http://www.revenuehits.com/"], :root a[href^="//medleyads.com/spot/"], :root a[href^="http://onclickads.net/"], :root a[href^="//nlkdom.com/"], :root a[href^="http://click.plista.com/pets"], :root a[href^="http://www.streamate.com/exports/"], :root a[href^="//t.MtagMonetizationA.com/"], :root a[href^="http://1phads.com/"], :root div[id^="ads250_250-widget"], :root a[href^="http://2pxg8bcf.top/"], :root a[href^="http://www.clickansave.net/"], :root a[href^="http://360ads.go2cloud.org/"], :root a[href^="http://9nl.es/"], :root a[href^="http://NowDownloadAll.com"], :root a[href^="http://www.mysuperpharm.com/"], :root a[href^="http://www.sex.com/videos/?utm_"], :root a[href^="http://a.adquantix.com/"], :root a[href^="http://abc2.mobile-10.com/"], :root a[href^="http://ad-emea.doubleclick.net/"], :root a[href^="http://ad.au.doubleclick.net/"], :root a[href^="http://adexprt.me/"], :root a[href^="http://adf.ly/?id="], :root a[href^="http://api.ringtonematcher.com/"], :root a[href^="http://adfarm.mediaplex.com/"], :root a[href^="http://www.babylon.com/welcome/index?affID"], :root a[href^="http://adserving.unibet.com/"], :root a[href^="https://secure.adnxs.com/clktrb?"], :root a[href^="http://adlev.neodatagroup.com/"], :root a[href^="http://adprovider.adlure.net/"], :root a[href^="http://pan.adraccoon.com?"], :root div[id^="lazyad-"], :root a[href^="http://bcp.crwdcntrl.net/"], :root a[href^="http://adrunnr.com/"], :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"], :root a[href^="http://ads.activtrades.com/"], :root a[href^="http://mmo123.co/"], :root a[href^="http://ads.ad-center.com/"], :root a[href^="http://ads.sprintrade.com/"], :root a[href^="http://zevera.com/afi.html"], :root a[href^="http://ads.expekt.com/affiliates/"], :root a[href^="http://ads.pheedo.com/"], :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root a[href^="http://cwcams.com/landing/click/"], :root a[href^="http://adserver.adreactor.com/"], :root a[href^="http://adserver.adtech.de/"], :root a[href^="http://www.1clickdownloader.com/"], :root a[href^="http://cdn3.adbrau.com/"], :root a[href^="http://adserver.itsfogo.com/"], :root a[href^="http://adserving.liveuniversenetwork.com/"], :root a[href^="http://adsrv.keycaptcha.com"], :root a[href^="http://adtrack123.pl/"], :root a[href^="http://green.trafficinvest.com/"], :root a[href^="http://clickserv.sitescout.com/"], :root a[href^="http://www.adshost2.com/"], :root a[href^="http://adtrackone.eu/"], :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="], :root a[href^="http://linksnappy.com/?ref="], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="http://affiliate.godaddy.com/"], :root a[href^="http://www.accuserveadsystem.com/accuserve-go.php?"], :root a[href^="http://lp.ilivid.com/"], :root a[href^="http://searchtabnew.com/"], :root a[href^="http://affiliates.pinnaclesports.com/processing/"], :root div[id^="block-views-topheader-ad-block-"], :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root a[href^="http://aflrm.com/"], :root a[href^="http://anonymous-net.com/"], :root a[href^="http://mojofun.info/"], :root a[href^="http://findersocket.com/"], :root iframe[src^="http://ad.yieldmanager.com/"], :root a[href^="http://at.atwola.com/"], :root a[href^="http://record.sportsbetaffiliates.com.au/"], :root a[href^="http://b.bestcompleteusa.info/"], :root a[href^="http://bc.vc/?r="], :root a[href^="http://bcntrack.com/"], :root a[href^="http://pokershibes.com/index.php?ref="], :root a[href^="http://www.friendlyadvertisements.com/"], :root div > [class][onclick*=".updateAnalyticsEvents"], :root a[href^="http://www.afco2go.com/srv.php?"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="http://betahit.click/"], :root a[href^="http://hyperies.info/"], :root a[href^="http://bluehost.com/track/"], :root a[href^="http://databass.info/"], :root a[href^="http://c.actiondesk.com/"], :root a[href^="http://c.jumia.io/"], :root a[href^="http://c.ketads.com/"], :root a[href^="http://www.bet365.com/"][href*="&affiliate="], :root a[href^="http://callville.xyz/"], :root a[href^="http://media.paddypower.com/redirect.aspx?"], :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"], :root a[href^="http://campeeks.com/"][href*="&utm_"], :root a[href^="http://casino-x.com/?partner"], :root a[href^="http://cdn.adsrvmedia.net/"], :root a[href^="http://web.adblade.com/"], :root div[data-subscript="Advertising"], :root a[href^="http://cdn3.adexprts.com/"], :root a[href^="http://go.oclaserver.com/"], :root a[href^="http://chaturbate.com/affiliates/"], :root script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content, :root div[itemtype="http://schema.org/WPAdBlock"], :root a[href^="http://cinema.friendscout24.de?"], :root a[href^="http://click.guamwnvgashbkashawhgkhahshmashcas.pw/"], :root a[href^="http://www.down1oads.com/"], :root a[href^="http://clicks.guamwnvgashbkashawhgkhahshmashcas.pw/"], :root a[href^="http://www.pheedo.com/"], :root a[href^="http://clk.directrev.com/"], :root a[href^="http://galleries.pinballpublishernetwork.com/"], :root div[class^="lifeOnwerAd"], :root a[target="_blank"][href^="http://api.taboola.com/"], :root a[href^="http://clkmon.com/adServe/"], :root a[href^="http://hdplugin.flashplayer-updates.com/"], :root a[href^="http://track.incognitovpn.com/"], :root div[id^="acm-ad-tag-"], :root a[href^="http://codec.codecm.com/"], :root a[href^="http://n.admagnet.net/"], :root a[href^="http://prochina.space/"], :root a[href^="http://contractallsticker.net/"], :root a[href^="http://wgpartner.com/"], :root a[href^="https://go.stripchat.com/"][href*="&campaignId="], :root a[href^="http://cpaway.afftrack.com/"], :root a[href^="http://d2.zedo.com/"], :root div[id^="advt-"], :root a[href^="https://affiliates.bet-at-home.com/processing/"], :root a[href^="http://data.committeemenencyclopedicrepertory.info/"], :root div[class^="Ad__bigBox"], :root a[href^="http://data.linoleictanzaniatitanic.com/"], :root div[itemtype="http://www.schema.org/WPAdBlock"], :root a[href^="http://dftrck.com/"], :root a[href^="http://down1oads.com/"], :root a[href^="http://download-performance.com/"], :root a[href^="http://www.myfreecams.com/?co_id="][href*="&track="], :root a[href^="https://bs.serving-sys.com"], :root a[href^="http://duckcash.eu/"], :root a[href^="http://easydownload4you.com/"], :root a[href^="http://www.moneyducks.com/"], :root a[href^="http://eclkmpsa.com/"], :root a[href^="http://elite-sex-finder.com/?"], :root a[href^="http://elitefuckbook.com/"], :root a[href^="http://ethfw0370q.com/"], :root a[href^="http://extra.bet365.com/"][href*="?affiliate="], :root a[href^="http://farm.plista.com/pets"], :root a[href^="http://freesoftwarelive.com/"], :root a[href^="http://webgirlz.online/landing/"], :root a[href^="http://fileloadr.com/"], :root a[href^="https://secure.eveonline.com/ft/?aid="], :root a[href^="http://fileupnow.rocks/"], :root a[href^="http://prousa.work/"], :root a[href^="http://fsoft4down.com/"], :root a[href^="http://track.trkvluum.com/"], :root a[href^="http://fusionads.net"], :root a[href^="https://farm.plista.com/pets"], :root a[href^="http://galleries.securewebsiteaccess.com/"], :root a[href^="http://gca.sh/user/register?ref="], :root a[href^="http://www.on2url.com/app/adtrack.asp"], :root a[href^="http://getlinksinaseconds.com/"], :root a[href^="http://go.seomojo.com/tracking202/"], :root a[href^="http://www.getyourguide.com/?partner_id="], :root a[href^="http://goldmoney.com/?gmrefcode="], :root a[href^="http://greensmoke.com/"], :root a[href^="http://hd-plugins.com/download/"], :root a[href^="http://hpn.houzz.com/"], :root a[href^="http://tracking.crazylead.com/"], :root a[href^="http://hyperlinksecure.com/go/"], :root a[href^="http://igromir.info/"], :root a[href^="http://imads.integral-marketing.com/"], :root a[href^="http://www.tirerack.com/affiliates/"], :root a[href^="http://install.securewebsiteaccess.com/"], :root a[href^="http://secure.signup-page.com/"], :root a[href^="http://www.brightwheel.info/"], :root a[href^="http://internalredirect.site/"], :root a[href^="http://istri.it/?"], :root a[href^="http://jobitem.org/"], :root a[href^="http://liversely.com/"], :root a[href^="http://k2s.cc/code/"], :root a[href^="http://tracking.toroadvertising.com/"], :root a[href^="http://k2s.cc/pr/"], :root a[href^="http://keep2share.cc/pr/"], :root a[href^="http://latestdownloads.net/download.php?"], :root div[id^="ADV-SLOT-"], :root a[href^="http://liversely.net/"], :root a[href^="http://t.mdn2015x2.com/"], :root a[href^="http://mgid.com/"], :root a[href^="http://www.freefilesdownloader.com/"], :root a[href^="http://www.quick-torrent.com/download.html?aff"], :root a[href^="http://mo8mwxi1.com/"], :root div[class^="gemini-ad"], :root a[href^="http://online.ladbrokes.com/promoRedirect?"], :root a[href^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://track.affiliatenetwork.co.za/"], :root a[href^="https://www.spyoff.com/"], :root a[href^="http://prochina.link/"], :root a[href^="http://record.betsafe.com/"], :root a[href^="http://record.commissionking.com/"], :root a[href^="http://rekoverr.com/"], :root a[href^="http://s9kkremkr0.com/"], :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"], :root a[href^="http://secure.hostgator.com/~affiliat/"], :root a[href^="http://serve.williamhill.com/promoRedirect?"], :root a[href^="http://servicegetbook.net/"], :root a[href^="http://srvpub.com/"], :root a[href^="http://stateresolver.link/"], :root a[href^="http://www.drowle.com/"], :root a[href^="https://keep2share.cc/pr/"], :root a[href^="http://steel.starflavor.bid/"], :root a[href^="https://www.adskeeper.co.uk/"], :root a[href^="http://syndication.exoclick.com/"], :root a[href^="https://www.firstload.com/affiliate/"], :root a[href^="https://control.trafficfabrik.com/"], :root a[href^="http://t.mdn2015x1.com/"], :root a[href^="http://t.mdn2015x3.com/"], :root a[href^="http://t.wowtrk.com/"], :root a[href^="http://tour.affbuzzads.com/"], :root div[id^="ad-div-"], :root a[href^="http://uploaded.net/ref/"], :root a[href^="http://us.marketgid.com"], :root a[href^="http://webtrackerplus.com/"], :root a[href^="http://wopertific.info/"], :root div[id^="cns_ads_"], :root a[href^="http://www.TwinPlan.com/AF_"], :root a[href^="http://www.afgr3.com/"], :root a[href^="http://www.twinplan.com/AF_"], :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"], :root a[href^="http://www.adskeeper.co.uk/"], :root a[href^="http://www.wantstraffic.com/"], :root a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="], :root a[href^="http://www.affiliates1128.com/processing/"], :root a[href^="http://www.downloadplayer1.com/"], :root a[href^="http://www.badoink.com/go.php?"], :root a[href^="http://www.bet365.com/"][href*="?affiliate="], :root a[href^="http://www.bitlord.me/share/"], :root a[href^="http://www.bluehost.com/track/"] > img, :root bottomadblock, :root a[href^="http://www.cash-duck.com/"], :root a[href^="https://windscribe.com/promo/"], :root a[href^="http://yads.zedo.com/"], :root a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"], :root a[href^="http://www.coinducks.com/"], :root a[href^="http://www.dl-provider.com/search/"], :root a[href^="http://www.downloadthesefiles.com/"], :root a[href^="http://www.duckcash.eu/"], :root a[href^="http://www.duckssolutions.com/"], :root a[href^="http://www.easydownloadnow.com/"], :root a[href^="http://www.epicgameads.com/"], :root a[href^="http://www.faceporn.net/free?"], :root a[href^="http://www.fducks.com/"], :root a[href^="https://torguard.net/aff.php"], :root a[href^="http://www.firstclass-download.com/"], :root a[href^="http://www.firstload.de/affiliate/"], :root a[href^="http://www.fonts.com/BannerScript/"], :root a[href^="http://www.flashx.tv/downloadthis"], :root a[href^="http://www.fleshlight.com/"], :root a[href^="http://www.friendlyquacks.com/"], :root a[href^="http://www.greenmangaming.com/?tap_a="], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="http://www.hitcpm.com/"], :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="http://www.idownloadplay.com/"], :root a[href^="http://www.incredimail.com/?id="], :root a[href^="https://tracking.truthfinder.com/?a="], :root a[href^="http://www.installads.net/"], :root a[href^="http://www.ireel.com/signup?ref"], :root a[href^="http://www.liutilities.com/"], :root a[href^="http://www.pinkvisualpad.com/?revid="], :root a[href^="http://www.liversely.net/"], :root a[href^="http://www.menaon.com/installs/"], :root a[href^="http://www.mobileandinternetadvertising.com/"], :root a[href^="http://www.my-dirty-hobby.com/?sub="], :root a[href^="http://www.plus500.com/?id="], :root a[href^="http://www.ragazzeinvendita.com/?rcid="], :root a[href^="http://www.richducks.com/"], :root a[href^="http://www.roboform.com/php/land.php"], :root a[href^="http://www.securegfm.com/"], :root a[href^="http://www.sex.com/?utm_"], :root a[href^="http://www.sex.com/pics/?utm_"], :root a[href^="http://www.urmediazone.com/signup"], :root div[class^="Ad__adContainer"], :root a[href^="http://www.sexgangsters.com/?pid="], :root a[href^="http://www.sfippa.com/"], :root a[href^="http://www.socialsex.com/"], :root a[href^="http://www.torntv-downloader.com/"], :root a[href^="http://www.torntvdl.com/"], :root a[href^="http://www.uniblue.com/cm/"], :root a[href^="http://www.usearchmedia.com/signup?"], :root a[href^="http://www.xmediaserve.com/"], :root a[href^="http://www.yourfuckbook.com/?"], :root a[href^="http://www.zergnet.com/i/"], :root a[onclick*="//m.economictimes.com/etmack/click.htm"], :root a[href^="http://www1.clickdownloader.com/"], :root a[href^="http://www5.smartadserver.com/call/pubjumpi/"], :root a[href^="http://wxdownloadmanager.com/dl/"], :root a[href^="http://xads.zedo.com/"], :root div[id^="div-adtech-ad-"], :root a[href^="http://y1jxiqds7v.com/"], :root div[id^="div_ad_stack_"], :root a[href^="http://z1.zedo.com/"], :root a[href^="https://aaucwbe.com/"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="https://adhealers.com/"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://adswick.com/"], :root a[href^="https://atomidownload.com/"], :root a[href^="https://awentw.com/"], :root a[href^="https://betway.com/"][href*="&a="], :root a[href^="https://chaturbate.com/in/?track="], :root a[href^="https://chaturbate.com/affiliates/"], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://click.plista.com/pets"], :root a[href^="https://dediseedbox.com/clients/aff.php?"], :root a[href^="https://dltags.com/"], :root a[href^="https://evaporate.pw/"], :root a[href^="https://go.ad2up.com/"], :root a[href^="https://go.onclasrv.com/"], :root a[href^="https://intrev.co/"], :root a[href^="https://mk-ads.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://porndeals.com/?track="], :root a[href^="https://prf.hn/click/"][href*="/adref:"], :root a[href^="https://redirect.ero-advertising.com/"], :root a[href^="https://syndication.exoclick.com/splash.php?"], :root a[href^="https://t.mobtya.com/"], :root a[href^="https://track.adform.net/"], :root a[href^="https://track.healthtrader.com/"], :root div[id^="ad-server-"], :root a[href^="https://trackjs.com/?utm_source"], :root a[href^="https://trklvs.com/"], :root a[href^="https://trust.zone/go/r.php?RID="], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root a[href^="https://www.bebi.com"], :root a[href^="https://www.camyou.com/?cam="][href*="&track="], :root a[href^="https://www.dsct1.com/"], :root a[href^="https://www.oboom.com/ad/"], :root a[href^="https://www.popads.net/users/"], :root a[href^="https://www.share-online.biz/affiliate/"], :root a[onmousedown^="this.href='/wp-content/embed-ad-content/"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root div[id^="div-gpt-ad"], :root a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"], :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root aside[id^="adrotate_widgets-"], :root aside[id^="advads_ad_widget-"], :root aside[id^="div-gpt-ad"], :root div[class$="dealnews"] > .dealnews, :root div[class^="AdhesionAd_"], :root div[class^="BlockAdvert-"], :root div[class^="ResponsiveAd-"], :root div[class^="ad_border_"], :root div[class^="ad_position_"], :root div[class^="adbanner_"], :root div[class^="adpubs-"], :root div[class^="awpcp-random-ads"], :root div[class^="block-openx-"], :root div[class^="local-feed-banner-ads"], :root div[class^="pane-google-admanager-"], :root div[class^="proadszone-"], :root div[data-native_ad], :root div[data-spotim-slot], :root div[id^="YFBMSN"], :root div[id^="ad-cid-"], :root div[id^="proadszone-"], :root div[id^="ad_bigbox_"], :root div[id^="adfox_"], :root div[id^="adrotate_widgets-"], :root div[id^="ads120_600-widget"], :root div[id^="ads300_600-widget"], :root div[id^="adspot-"], :root div[id^="dfp-slot-"], :root div[id^="div-ads-"], :root div[id^="dmRosAdWrapper"], :root topadblock, :root div[id^="drudge-column-ads-"], :root div[id^="google_dfp_"], :root div[id^="q1-adset-"], :root div[id^="zergnet-widget"], :root iframe[id^="google_ads_iframe"], :root iframe[src^="http://cdn1.adexprt.com/"], :root iframe[src^="http://static.mozo.com.au/strips/"], :root img[alt^="Fuckbook"], :root input[onclick^="window.open('http://www.friendlyduck.com/"], :root input[onclick^="window.open('http://www.FriendlyDuck.com/"], :root p[id^="div-gpt-ad-"], :root td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"] { display: none !important; }</style><script async="" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/full-anon.en.js.download"></script><link rel="preload" href="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/f.txt" as="script"><script type="text/javascript" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/f.txt"></script><link rel="preload" href="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/f(1).txt" as="script"><script type="text/javascript" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/f(1).txt"></script><script src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/pubads_impl_274.js.download" async=""></script><link rel="stylesheet" href="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/clc.min.css" type="text/css"><script async="" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/snippet-javascript.en.js.download"></script><script async="" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/post-validation.en.js.download"></script><script async="" src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/external-editor.en.js.download"></script></head>
+        <body class="question-page unified-theme new-topbar">
+    <div id="notify-container"></div>
+    <div id="custom-header"></div>
+
+
+
+
+<header class="top-bar js-top-bar _fixed top-bar__network">
+    <div class="-container">
+        <div class="-main">
+                <a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle"><span class="ps-relative"></span></a>
+                                <a href="https://stackoverflow.com/" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:2, destination:8})">
+                        <span class="-img _glyph">Stack Overflow</span>
+                    </a>
+
+
+
+        </div>
+
+            <form id="search" action="https://stackoverflow.com/search" method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search…" value="" autocomplete="off" maxlength="240" class="f-input js-search-field ">
+                        <button type="submit" aria-label="Search..." class="s-btn s-btn__primary btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon mx0 iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></button>
+                    </div>
+            </form>
+
+        
+
+
+
+
+
+<ol class="-secondary js-secondary-topbar-links drop-icons-responsively the-js-is-handling-responsiveness">
+        <li class="-item searchbar-trigger js-searchbar-trigger"><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></a></li>
+            <li class="-item">
+        <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z"></path></svg>
+            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+        </a>
+    </li>
+    <li class="-item">
+        <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"></path></svg>
+            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+        </a>
+    </li>
+
+    <li class="-item help-button-item" data-remove-order="1"><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="-link js-help-button" title="Help Center and other resources">
+        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"></path></svg>
+    </a></li>
+
+    <li class="-item">
+        <a href="https://stackexchange.com/" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 174 Stack Exchange sites">
+            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg>
+        </a>
+    </li>
+
+            <li class="-ctas">
+                        <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f6930031%2fhow-do-i-convert-ppi-into-dpi-for-android-images" class="login-link s-btn btn-topbar-clear py8" rel="nofollow">Log In</a>
+                        <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link s-btn s-btn__primary py8 btn-topbar-primary" rel="nofollow" data-ga="[&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a>
+
+            </li>
+
+    <li class="-dialog-container js-topbar-dialog-corral">
+
+
+    <div class="topbar-dialog siteSwitcher-dialog dno">
+        <div class="header">
+            <h3><a href="https://stackoverflow.com/">current community</a>
+            </h3>
+        </div>
+        <div class="modal-content current-site-container">
+            <ul class="current-site">
+                    <li class="grid">
+                            <div class="fl1">
+            <a href="https://stackoverflow.com/" class="current-site-link site-link js-gps-track grid gs8 gsx" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })">
+        <div class="favicon favicon-stackoverflow site-icon grid--cell" title="Stack Overflow"></div>
+        <span class="grid--cell fl1">
+            Stack Overflow
+        </span>
+    </a>
+
+    </div>
+    <div class="related-links">
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a>
+                    <a href="https://chat.stackoverflow.com/" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+            </div>
+
+                    </li>
+                    <li class="related-site grid">
+                            <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                            <a href="https://meta.stackoverflow.com/" class="site-link js-gps-track grid gs8 gsx" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })">
+        <div class="favicon favicon-stackoverflowmeta site-icon grid--cell" title="Meta Stack Overflow"></div>
+        <span class="grid--cell fl1">
+            Meta Stack Overflow
+        </span>
+    </a>
+
+                    </li>
+            </ul>
+        </div>
+
+        <div class="header" id="your-communities-header">
+            <h3>
+your communities            </h3>
+
+        </div>
+        <div class="modal-content" id="your-communities-section">
+
+                <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f6930031%2fhow-do-i-convert-ppi-into-dpi-for-android-images" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list.
+                </div>
+        </div>
+
+        <div class="header">
+            <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a>
+            </h3>
+            <a href="https://stackoverflow.blog/" class="fr">company blog</a>
+        </div>
+        <div class="modal-content">
+                <div class="child-content"></div>
+        </div>        
+    </div>
+            <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="https://stackoverflow.com/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                        <li>
+                            <a href="https://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                                Meta
+                                <span class="item-summary">
+                                    Discuss the workings and policies of this site
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                                About Us
+                                <span class="item-summary">
+                                    Learn more about Stack Overflow the company
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                                Business
+                                <span class="item-summary">
+                                    Learn more about hiring developers or posting ads with us
+                                </span>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+                    <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+                <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm"></div>
+            </div>
+    </li>
+</ol>
+
+    </div>
+</header>
+    <div id="js-gdpr-consent-banner" class="p16 bg-black-700 ff-sans fc-white ps-fixed b0 l0 r0 z-banner" role="banner" aria-hidden="false">
+        <div class="wmx8 mx-auto grid jc-center" role="alertdialog" aria-describedby="notice-message">
+            <div class="grid--cell mr12" aria-label="notice-message">
+                <p class="mb0 lh-lg">
+                    By using our site, you acknowledge that you have read and understand our <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/cookie-policy">Cookie Policy</a>, <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/privacy-policy">Privacy Policy</a>, and our <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/terms-of-service/public">Terms of Service</a>.
+                </p>
+            </div>
+            <a class="grid--cell fc-white js-notice-close" aria-label="notice-dismiss">
+                <svg aria-hidden="true" class="svg-icon m0 iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z"></path></svg>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        StackExchange.ready(function () { StackExchange.topbar.init({ observeSize: true }); });
+        StackExchange.scrollPadding.setPaddingTop(50, 10);     </script>
+
+
+    
+
+
+    <div class="container  ">
+                
+
+
+
+
+<div id="left-sidebar" data-is-here-when="md lg" class="left-sidebar js-pinned-left-sidebar">
+    <div class="left-sidebar--sticky-container js-sticky-leftnav">
+        <nav role="navigation">
+            <ol class="nav-links">
+                <li>    </li><li>
+        <a href="https://stackoverflow.com/" class="pl8 js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:8})">
+Home        </a>
+    </li>
+
+                <li>
+                    <ol class="nav-links">
+                            <li class="fs-fine tt-uppercase ml8 mt16 mb4 fc-light">Public</li>
+                            <li class=" youarehere">
+        <a id="nav-questions" href="https://stackoverflow.com/questions" class="pl8 js-gps-track nav-links--link -link__with-icon" data-gps-track="top_nav.click({is_current:true, location:2, destination:1})">
+<svg aria-hidden="true" class="svg-icon iconGlobe" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zM8 15.32a6.4 6.4 0 0 1-5.23-7.75L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.4 6.4 0 0 1 2.32 10.24z"></path></svg>                <span class="-link--channel-name">Stack Overflow</span>
+        </a>
+    </li>
+
+    <li>
+        <a id="nav-tags" href="https://stackoverflow.com/tags" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:2})">
+Tags        </a>
+    </li>
+    <li>
+        <a id="nav-users" href="https://stackoverflow.com/users" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:3})">
+Users        </a>
+    </li>
+    <li>
+        <a id="nav-jobs" href="https://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:6})">
+Jobs        </a>
+    </li>
+                                            </ol>
+                </li>
+                    <li>
+                        <ol class="nav-links">
+                                    <li class="p6">
+                                        <div class="ba bc-black-2 bar-sm p16 grid fd-column ps-relative overflow-hidden">
+                                            <strong class="grid--cell">Teams+Slack</strong>
+                                            <span class="grid--cell mt2 fs-caption fc-medium">Q&amp;A for work </span>
+                                            <a href="https://stackoverflow.com/teams" class="js-gps-track s-btn s-btn__outlined ta-center grid--cell mt12" data-gps-track="teams.create.left-sidenav.click({ CampaignType: Slack})" data-ga="[&quot;teams traffic&quot;,&quot;left nav cta&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]">
+                                                Learn More
+                                            </a>
+
+                                            <div class="ps-absolute t4 rn6">
+                                                <svg width="53" height="49" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49 11l.2 31H18.9L9 49v-7H4V8h31" fill="#CCEAFF"></path><path d="M44.5 19v-.3l-.2-.1-18-13-.1-.1H.5v33h4V46l.8-.6 9.9-6.9h29.3V19z" stroke="#1060E1" stroke-miterlimit="10"></path><path d="M31 2l6-1.5 7 2V38H14.9L5 45v-7H1V6h25l5-4z" fill="#fff"></path><path d="M7 16.5h13m-13 6h14m-14 6h18" stroke="#1060E1" stroke-miterlimit="10"></path><path d="M39 30a14 14 0 1 0 0-28 14 14 0 0 0 0 28z" fill="#FFB935"></path><path d="M50.5 14a13.5 13.5 0 1 1-27 0 13.5 13.5 0 0 1 27 0z" stroke="#F48024" stroke-miterlimit="10"></path><path d="M32.5 21.5v-8h9v8h-9zm2-9.5V9.3A2.5 2.5 0 0 1 37 6.8a2.5 2.5 0 0 1 2.5 2.5V12h-5zm2 3v2m1-2v2" stroke="#fff" stroke-miterlimit="10"></path></svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                        </ol>
+                    </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+        <div id="content" class="snippet-hidden">
+
+
+            
+
+
+<div itemscope="" itemtype="http://schema.org/Question">
+    <link itemprop="image" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+
+    <div class="inner-content clearfix">
+    
+    
+
+<style>.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}</style>
+        <div id="dfp-tlb" class="everyonelovesstackoverflow everyoneloves__top-leaderboard" style="display: none !important;"></div>            <div id="question-header" class="grid">
+                    <h1 itemprop="name" class="grid--cell fs-headline1 fl1"><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images" class="question-hyperlink">How do I convert ppi into dpi for Android images?</a></h1>
+
+            
+
+
+
+<div class="pl8 aside-cta grid--cell" role="navigation" aria-label="ask new question">
+            <a href="https://stackoverflow.com/questions/ask" class="d-inline-flex ai-center ws-nowrap s-btn s-btn__primary">Ask Question</a>
+</div>
+
+        </div>
+            <div id="mainbar" role="main" aria-label="question and answers">
+
+            
+
+<div class="question" data-questionid="6930031" id="question">
+
+    
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="6930031">
+        <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">25</span>
+        <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+        <a class="star-off" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#">favorite</a>
+        <div class="favoritecount"><b>30</b></div>
+
+
+
+</div>
+
+            </div>
+
+            
+<div class="postcell post-layout--right">
+    <div class="post-text" itemprop="text">
+
+<p>I have started making graphics for my Android app using Adobe Photoshop. But I am unable to proceed, as the resolution in Photoshop is set in pixels per inch where as the official Google documentation says Android will require images set in dpi. I have searched the web for the conversion between the two but never ended up with any proper formula.</p>
+
+<p>I know that the Android documentation describes the relation as <code>px = dp*dpi/160</code>. But my problem is that if I know dpi where do I get the value of dp to be used in this calculation? Or is there any assumption about the value of dp? I am confused.</p>
+    </div>
+
+        <div class="post-taglist grid gs4 gsy fd-column">
+            <div class="grid ps-relative d-block">
+                <a href="https://stackoverflow.com/questions/tagged/android" class="post-tag js-gps-track" title="show questions tagged &#39;android&#39;" rel="tag"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="https://stackoverflow.com/questions/tagged/dpi" class="post-tag js-gps-track" title="show questions tagged &#39;dpi&#39;" rel="tag">dpi</a> 
+            </div>
+        </div>
+
+    <div class="mb0 ">
+        <div class="mt16 pt4 grid gs8 gsy fw-wrap jc-end ai-start">
+            <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/q/6930031" title="short permalink to this question" class="short-link" id="link-post-6930031">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/6930031/edit" class="suggest-edit-post" title="">improve this question</a></div>
+            </div>
+
+                <div class="post-signature grid--cell">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/6930031/revisions" title="show all edits to this post">edited <span title="2011-08-04 08:26:58Z" class="relativetime">Aug 4 '11 at 8:26</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/865899/hairboat"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/AxwMh.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/865899/hairboat">hairboat</a><span class="mod-flair" title="moderator">♦</span>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">390</span><span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span><span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span>
+        </div>
+    </div>
+</div>                </div>
+            <div class="post-signature owner grid--cell">
+<div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2011-08-03 16:42:22Z" class="relativetime">Aug 3 '11 at 16:42</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/865843/ruchira"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/a37f59fde23b70e91c8ced5f0a82362a" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/865843/ruchira">Ruchira</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">407</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="11 silver badges"><span class="badge2"></span><span class="badgecount">11</span></span><span title="27 bronze badges"><span class="badge3"></span><span class="badgecount">27</span></span>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+                
+    <div class="post-layout--right">
+	    <div id="comments-6930031" class="comments js-comments-container ">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-23126671" class="comment js-comment " data-comment-id="23126671">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">The ppi set in photoshop only affects how large image prints on paper, and has no affect on how image displays in android...</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/1507439/steven-byle" title="10,310 reputation" class="comment-user">Steven Byle</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment23126671_6930031"><span title="2013-04-23 20:39:18Z" class="relativetime-clean">Apr 23 '13 at 20:39</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-26981995" class="comment js-comment " data-comment-id="26981995">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">Hi @StevenByle, while that's true in general, it can't mean the same thing in Android and Android's phone context, can it? How much does print definition mean to Android or Android phones that all search results you can find on the Internet e.g. "HTC Sensation screen resolution" shows PPI instead of DPI? My experience in the media industry shows that people actually uses dpi for print design and Photoshop talks as well. Many use both ppi and dpi interchangeably</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/541624/ericn" title="4,884 reputation" class="comment-user">ericn</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment26981995_6930031"><span title="2013-08-22 08:22:07Z" class="relativetime-clean">Aug 22 '13 at 8:22</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-26991958" class="comment js-comment " data-comment-id="26991958">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">@fuzzybee While ppi and dpi and not equivalent (since some screen technologies use several pixels to generate a dot, etc), Android can use either. However, Android does not use this metadata for images. For instance, create a 100x100 image at 100dpi and then at 1000dpi in photoshop. While there is no difference on how they look on your screen (always 100x100), if you print them they will be diff physical sizes. Android knows the dpi of the image depending on the drawable density folder you put it in (not the setting in photoshop), drawable-hdpi = 240dpi, drawable-xhdpi = 320dpi, etc.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/1507439/steven-byle" title="10,310 reputation" class="comment-user">Steven Byle</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment26991958_6930031"><span title="2013-08-22 12:59:47Z" class="relativetime-clean">Aug 22 '13 at 12:59</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-26992087" class="comment js-comment " data-comment-id="26992087">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">@fuzzybee So when you look at screen specs, you may see them in ppi, which is fine, as most screen technologies translate to 1 pixel = 1 dot. Android references dots with dpi when drawing the screen in software, since 1 pixel may not be 1 dot on all displays, it's a way of normalizing the unit. Check out my blog on <a href="http://blogs.captechconsulting.com/blog/steven-byle/understanding-density-independence-android" rel="nofollow noreferrer">Understanding Density Independence in Android</a> for more info.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/1507439/steven-byle" title="10,310 reputation" class="comment-user">Steven Byle</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment26992087_6930031"><span title="2013-08-22 13:02:36Z" class="relativetime-clean">Aug 22 '13 at 13:02</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-6930031" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" onclick=""></a>
+        </div>         
+    </div>        </div>
+</div>
+
+
+<div id="dfp-isb" class="everyonelovesstackoverflow everyoneloves__inline-sidebar"></div>
+        <div id="answers">
+
+                <a name="tab-top"></a>
+                <div id="answers-header">
+                    <div class="subheader answers-subheader">
+                        <h2 data-answercount="5">
+                                5 Answers
+                                <span style="display:none;" itemprop="answerCount">5</span>
+                        </h2>
+                        <div>
+                            
+<div id="tabs">
+        <a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active" data-shortcut="A">
+            active</a>
+        <a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest" data-shortcut="O">
+            oldest</a>
+        <a class="youarehere is-selected " href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes" data-shortcut="V">
+            votes</a>
+    </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+  
+<a name="6938345"></a>
+<div id="answer-6938345" class="answer accepted-answer" data-answerid="6938345" itemprop="acceptedAnswer" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="6938345">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">36</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+        <span class="vote-accepted-on load-accepted-answer-date" title="loading when this answer was accepted...">accepted</span>
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>Dp are Density independant pixels and are used to generalise the number of pixels a screen has. These are generalised figures taken from <a href="http://developer.android.com/guide/practices/screens_support.html" rel="noreferrer">http://developer.android.com/guide/practices/screens_support.html</a></p>
+
+<ul>
+<li>xlarge screens are at least 960dp x 720dp</li>
+<li>large screens are at least 640dp x 480dp</li>
+<li>normal screens are at least 470dp x 320dp</li>
+<li>small screens are at least 426dp x 320dp</li>
+</ul>
+
+<p>Generalised Dpi values for screens:</p>
+
+<ul>
+<li>ldpi Resources for low-density (ldpi) screens (~120dpi)</li>
+<li>mdpi Resources for medium-density (mdpi) screens (~160dpi). (This is the baseline density.)</li>
+<li>hdpi Resources for high-density (hdpi) screens (~240dpi).</li>
+<li>xhdpi Resources for extra high-density (xhdpi) screens (~320dpi).</li>
+</ul>
+
+<p>Therefore generalised size of your resources (assuming they are full screen):</p>
+
+<ul>
+<li>ldpi 
+
+<ul>
+<li>Vertical = 426 * 120 / 160 = 319.5px</li>
+<li>Horizontal = 320 * 120 / 160 = 240px</li>
+</ul></li>
+<li>mdpi
+
+<ul>
+<li>Vertical = 470 * 160 / 160 = 470px</li>
+<li>Horizontal = 320 * 160 / 160 = 320px</li>
+</ul></li>
+<li>hdpi
+
+<ul>
+<li>Vertical = 640 * 240 / 160 = 960px</li>
+<li>Horizontal = 480 * 240 / 160 = 720px</li>
+</ul></li>
+</ul>
+
+<hr>
+
+<p><strong>Edit</strong> - adding xhdpi as they are becoming more popular</p>
+
+<ul>
+<li>xhdpi
+
+<ul>
+<li>Vertical = 960 * 320 / 160 = 1920px</li>
+<li>Horizontal = 720 * 320 / 160 = 1440px</li>
+</ul></li>
+</ul>
+
+<p>These values should be suitable for most xhdpi screens such as TVs and the Nexus 4, including the Nexus 10 (assuming they don't create a new category for this as it is 25k x 16k, don't know as I haven't got hands on one yet).</p>
+
+<p><strong>/Edit</strong></p>
+
+<hr>
+
+<p>If you use these sizes your images will look great on any screen. Be sure to define sizes in code in dp however, Android will handle the conversion described above on its own.</p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/6938345" title="short permalink to this answer" class="short-link" id="link-post-6938345">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/6938345/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/6938345/revisions" title="show all edits to this post">edited <span title="2012-11-14 10:53:40Z" class="relativetime">Nov 14 '12 at 10:53</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2011-08-04 08:29:55Z" class="relativetime">Aug 4 '11 at 8:29</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/308474/michael-allen"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/c73da5822a991b680a6fcaa465a78d56.jpeg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/308474/michael-allen">Michael Allen</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">3,937</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="25 silver badges"><span class="badge2"></span><span class="badgecount">25</span></span><span title="53 bronze badges"><span class="badge3"></span><span class="badgecount">53</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-6938345" class="comments js-comments-container ">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="7" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-8275226" class="comment js-comment " data-comment-id="8275226">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">I have read about the same.But how do I set the screen resolution as adobe photoshop defines the resolution in pixel  per inch whereas google doc. gives it in dpi.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/865843/ruchira" title="407 reputation" class="comment-user owner">Ruchira</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment8275226_6938345"><span title="2011-08-04 14:22:39Z" class="relativetime-clean">Aug 4 '11 at 14:22</span></a></span>
+                        <span title="this comment was edited 1 time">
+                            <svg aria-hidden="true" class="svg-icon va-text-bottom o50 iconPencilSm" width="14" height="15" viewBox="0 0 14 15"><path d="M8.37 4.7L2 11.11V13h1.88l6.37-6.43zM12.23 3.83L11.1 2.71a.5.5 0 0 0-.7 0L9.2 3.86l1.88 1.84 1.14-1.16a.5.5 0 0 0 0-.71z"></path></svg>
+                        </span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-8343842" class="comment js-comment " data-comment-id="8343842">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">2</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">Thanks for the explanation.It helped to a great extent.But still the confusion to convert screen resolution from dpi to ppi remains.So I am using the following link for my assumption about screen resolution:- <a href="http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density" rel="nofollow noreferrer">en.wikipedia.org/wiki/List_of_displays_by_pixel_density</a></span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/865843/ruchira" title="407 reputation" class="comment-user owner">Ruchira</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment8343842_6938345"><span title="2011-08-09 04:32:17Z" class="relativetime-clean">Aug 9 '11 at 4:32</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-8347246" class="comment js-comment " data-comment-id="8347246">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">4</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">Sorry, I think I miss read the question a little. You say Photoshop requires a Pixel per inch value for size but it doesn't. The PPI setting is only used if you are going to print, for screen the only thing you are interested in is the size of the image in pixels. For android images use the pixel values I have given above, they will give sharp images on any display. e.g. for hdpi a full screen texture should be 960px x 720px and can have any dpi or ppi value. You then use dp to make sure it fills the screen in android. This means if its swapped for a smaller image it will still fill the screen</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/308474/michael-allen" title="3,937 reputation" class="comment-user">Michael Allen</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment8347246_6938345"><span title="2011-08-09 09:10:51Z" class="relativetime-clean">Aug 9 '11 at 9:10</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-23126606" class="comment js-comment " data-comment-id="23126606">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">4</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">Wow this is so incredibly <b>WRONG</b>, I can't believe it got this many upvotes. Screen density and screen size are NOT the same. A tablet can  be ldpi, and and tiny phone can be xhdpi, or vice versa. These calculations are all incorrect, as 160 dp is about an inch for EVERY density. smh...</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/1507439/steven-byle" title="10,310 reputation" class="comment-user">Steven Byle</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment23126606_6938345"><span title="2013-04-23 20:37:31Z" class="relativetime-clean">Apr 23 '13 at 20:37</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+    <li id="comment-23148526" class="comment js-comment " data-comment-id="23148526">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score">
+                    <span title="number of &#39;useful comment&#39; votes received" class="warm">6</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body" style="display: block;">
+                <span class="comment-copy">@MichaelAllen You never mentioned the size of the screen? dp x dp represents a physical size, and all of your calculations are from the dp x dp physical sizes of screens. Your major <b>INCORRECT</b> assumption is that screen size = screen density. You calculate a small screen as always ldpi (wrong), a normal screen as always mdpi (wrong), etc. Your examples show 4 screen sizes at 4 densities. In reality, you need 4 density sizes for each screen size, so there would be 16 dimensions here (now there are 5 so 20 really). Proof - <a href="http://developer.android.com/about/dashboards/index.html#Screens" rel="nofollow noreferrer">developer.android.com/about/dashboards/index.html#Screens</a>.</span>
+                    –&nbsp;<a href="https://stackoverflow.com/users/1507439/steven-byle" title="10,310 reputation" class="comment-user">Steven Byle</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#comment23148526_6938345"><span title="2013-04-24 12:13:38Z" class="relativetime-clean">Apr 24 '13 at 12:13</span></a></span>
+                                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-6938345" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link " title="expand to show all comments on this post" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" onclick="">show <b>7</b> more comments</a>
+        </div>         
+    </div>    </div>
+</div>
+<div id="dfp-mlb" class="everyonelovesstackoverflow everyoneloves__mid-leaderboard"></div>
+  
+<a name="14267928"></a>
+<div id="answer-14267928" class="answer" data-answerid="14267928" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="14267928">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">5</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>I don't agree with answer by Michael Allen because the resulting resolutions for ldpi, mdpi, hdpi and xdpi doesn't satisfy the 3:4:6:8 scaling ratios for alternative bitmaps mentioned in the google docs here under 'Alternative Drawables'</p>
+
+<p><a href="http://developer.android.com/guide/practices/screens_support.html#testing" rel="noreferrer">http://developer.android.com/guide/practices/screens_support.html#testing</a></p>
+
+<p>Therefore I would suggest that you take the baseline example that has a minimum size of </p>
+
+<p>470 x 320 dp now using formula from same documentation we calculate full screen resolution for baseline screen size </p>
+
+<p>px = dp * (dpi/160); for baseline px = dp * (160/160) = dp * 1
+so px = dp. This means the full screen size for our baseline config. in pixels would be </p>
+
+<p>470 X 320 px (mdpi)</p>
+
+<p>now to follow the 3:4:6:8 scaling ratios for alternative drawables sizes for ldpi, hdpi and xhdpi we need to derive the unit values from mdpi. i.e. </p>
+
+<p>470/4 = 117.5</p>
+
+<p>320/4 = 80 </p>
+
+<p>divide by 4 because scaling ratio for mdpi is 4, scaling ratios for ldpi, hdpi and xhdpi are 3,6 and 8 respectively. now just multiply the unit results 117.5 and 80 with these scaling factors</p>
+
+<p>ldpi </p>
+
+<p>117.5 * 3 = 352.5</p>
+
+<p>80    * 3 = 240</p>
+
+<p>mdpi </p>
+
+<p>117.5 * 4 = 470</p>
+
+<p>80    * 4 = 320</p>
+
+<p>hdpi </p>
+
+<p>117.5 * 6 = 705</p>
+
+<p>80    * 6 = 480</p>
+
+<p>xhdpi </p>
+
+<p>117.5 * 8 = 940</p>
+
+<p>80    * 8 = 640</p>
+
+<p>These sizes are now in perfect 3:4:6:8 scaling ratios.</p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/14267928" title="short permalink to this answer" class="short-link" id="link-post-14267928">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/14267928/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2013-01-10 21:52:33Z" class="relativetime">Jan 10 '13 at 21:52</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/1673648/nouman-hanif"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/ehLXP.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/1673648/nouman-hanif">Nouman Hanif</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">91</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-14267928" class="comments js-comments-container  dno">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+            </ul>
+	    </div>
+
+        <div id="comments-link-14267928" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+
+  
+<a name="9337352"></a>
+<div id="answer-9337352" class="answer" data-answerid="9337352" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="9337352">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">1</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>Yes, Dp (Density <em>independant</em> pixels) is all Photoshop will care about. It should not consider what the density of the pixels will be. That image of a super high number of pixels may be put on a super small high definition UI button for all it cares about. Or you may have few pixels for a retro style A0 poster of Tetris. This is because they can get scaled. Few pixels are scaled up for the large area, and many pixels scaled down for the small area on a screen.</p>
+
+<p>So pick your target <a href="http://developer.android.com/guide/practices/screens_support.html#ConfigurationExamples" rel="nofollow">link to sizes</a> screen size and use that in photoshop. (also check out who uses what... <a href="http://developer.android.com/resources/dashboard/screens.html" rel="nofollow">pie chart of sizes used</a>) </p>
+
+<p>For the intuition this site helped me <a href="http://blog.edwinevans.me/?p=131" rel="nofollow">link to blog page</a>:</p>
+
+<blockquote>
+  <p>At run time, the platform transparently handles any scaling of the dp units needed, based on the actual density of the screen in use.</p>
+</blockquote>
+
+<p>(the platform does the scaling- the density ratio handling is done by Android; not you) and this is extremely relevant to the UI:</p>
+
+<blockquote>
+  <p>Using dp units to define your application’s UI is highly recommended, as a way of ensuring proper display of your UI on different screens.</p>
+</blockquote>
+
+<p>Because you want the UI elements to appear the same on all devices so it will do scaling based on the number of pixels it computes in that formula. And if the <em>dp</em> is scaled in a way so that it becomes too spare or dense, well that won't look good.</p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/9337352" title="short permalink to this answer" class="short-link" id="link-post-9337352">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/9337352/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2012-02-18 00:32:56Z" class="relativetime">Feb 18 '12 at 0:32</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/410975/vass"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/VJMpT.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/410975/vass">Vass</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1,111</span><span title="9 gold badges"><span class="badge1"></span><span class="badgecount">9</span></span><span title="27 silver badges"><span class="badge2"></span><span class="badgecount">27</span></span><span title="50 bronze badges"><span class="badge3"></span><span class="badgecount">50</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-9337352" class="comments js-comments-container  dno">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+            </ul>
+	    </div>
+
+        <div id="comments-link-9337352" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+
+  
+<a name="10085869"></a>
+<div id="answer-10085869" class="answer" data-answerid="10085869" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="10085869">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">1</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>As the resolution in Photoshop is set in pixels per inch where as the official Google documentation says Android will require images set in dpi.</p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/10085869" title="short permalink to this answer" class="short-link" id="link-post-10085869">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/10085869/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+    <div class="post-signature grid--cell fl0">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/10085869/revisions" title="show all edits to this post">edited <span title="2012-04-10 09:32:04Z" class="relativetime">Apr 10 '12 at 9:32</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/186535/antyrat"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/6a7f1c424b1c12c6bf75a9d7fc16b3f4.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/186535/antyrat">antyrat</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 23,501" dir="ltr">23.5k</span><span title="9 gold badges"><span class="badge1"></span><span class="badgecount">9</span></span><span title="58 silver badges"><span class="badge2"></span><span class="badgecount">58</span></span><span title="70 bronze badges"><span class="badge3"></span><span class="badgecount">70</span></span>
+        </div>
+    </div>
+</div>    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-04-10 09:05:15Z" class="relativetime">Apr 10 '12 at 9:05</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/1323612/ppi-reclaim"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/c36fdf7e15219a29dcde7c1d9990e45a" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/1323612/ppi-reclaim">ppi reclaim</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-10085869" class="comments js-comments-container  dno">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+            </ul>
+	    </div>
+
+        <div id="comments-link-10085869" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+
+  
+<a name="10069388"></a>
+<div id="answer-10069388" class="answer" data-answerid="10069388" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="10069388">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+
+</div>
+
+            </div>
+            
+
+
+<div class="answercell post-layout--right">
+    <div class="post-text" itemprop="text">
+<p>The same on all devices so it will do scaling based on the number of pixels it computes in that formula.</p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/10069388" title="short permalink to this answer" class="short-link" id="link-post-10069388">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/10069388/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+    <div class="post-signature grid--cell fl0">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/10069388/revisions" title="show all edits to this post">edited <span title="2012-10-26 15:07:07Z" class="relativetime">Oct 26 '12 at 15:07</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/390989/eldarerathis"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/1187840ca619374e5f2d91943870d7e1.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/390989/eldarerathis">eldarerathis</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 26,602" dir="ltr">26.6k</span><span title="8 gold badges"><span class="badge1"></span><span class="badgecount">8</span></span><span title="81 silver badges"><span class="badge2"></span><span class="badgecount">81</span></span><span title="86 bronze badges"><span class="badge3"></span><span class="badgecount">86</span></span>
+        </div>
+    </div>
+</div>    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-04-09 05:41:38Z" class="relativetime">Apr 9 '12 at 5:41</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/1321252/ppi-news"><div class="gravatar-wrapper-32"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/6e94ab2b34265aac39c31223d29caa10" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/1321252/ppi-news">ppi news</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+</div>
+    
+    <div class="post-layout--right">
+	    <div id="comments-10069388" class="comments js-comments-container  dno">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+            </ul>
+	    </div>
+
+        <div id="comments-link-10069388" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+                                    <a name="new-answer"></a>
+                        <form id="post-form" action="https://stackoverflow.com/questions/6930031/answer/submit" method="post" class="post-form">
+                            <input type="hidden" id="post-id" value="6930031">
+                            <input type="hidden" id="qualityBanWarningShown" name="qualityBanWarningShown" value="false">
+                            <input type="hidden" name="referrer" value="https://stackoverflow.com/questions/10790125/how-to-get-correct-width-and-hight-for-android">
+                            <h2 class="space">Your Answer</h2>
+
+
+
+            <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script>
+    
+
+<script>
+    StackExchange.ready(function() {
+        var channelOptions = {
+            tags: "".split(" "),
+            id: "1"
+        };
+        initTagRenderer("".split(" "), "".split(" "), channelOptions);
+       
+        StackExchange.using("externalEditor", function() {
+                // Have to fire editor after snippets, if snippets enabled
+                if (StackExchange.settings.snippets.snippetsEnabled) {
+                    StackExchange.using("snippets", function() {
+                        createEditor();
+                    });
+                }
+                else {
+                    createEditor();
+                }
+            });
+
+            function createEditor() {
+                StackExchange.prepareEditor({
+                    heartbeatType: 'answer',
+                convertImagesToLinks: true,
+                noModals: true,
+                showLowRepImageUploadWarning: true,
+                reputationToPostImages: 10,
+                bindNavPrevention: true,
+                postfix: "",
+                imageUploader: {
+                    brandingHtml: "Powered by \u003ca class=\"icon-imgur-white\" href=\"https://imgur.com/\"\u003e\u003c/a\u003e",
+                    contentPolicyHtml: "User contributions licensed under \u003ca href=\"https://creativecommons.org/licenses/by-sa/3.0/\"\u003ecc by-sa 3.0 with attribution required\u003c/a\u003e \u003ca href=\"https://stackoverflow.com/legal/content-policy\"\u003e(content policy)\u003c/a\u003e",
+                    allowUrls: true
+                },
+                    onDemand: true,
+                    discardSelector: ".discard-answer"
+                    ,immediatelyShowMarkdownHelp:true
+                    });
+                
+
+        }
+    });
+</script>
+
+
+<div id="post-editor" class="post-editor js-post-editor wz-element" data-wz-state="3,4,5,6,7,8">
+
+    <div style="position: relative;"> 
+        <div class="wmd-container">
+            <div id="wmd-button-bar" class="wmd-button-bar btr-sm"><ul id="wmd-button-row" class="wmd-button-row"><li id="wmd-bold-button" class="wmd-button" style="left: 0px;"><span style="background-position: 0px -20px;"></span></li><li id="wmd-italic-button" class="wmd-button" style="left: 25px;"><span style="background-position: -20px -20px;"></span></li><li id="wmd-spacer1" class="wmd-spacer" style="left: 50px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-link-button" class="wmd-button" style="left: 75px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-quote-button" class="wmd-button" style="left: 100px;"><span style="background-position: -60px -20px;"></span></li><li id="wmd-code-button" class="wmd-button" style="left: 125px;"><span style="background-position: -80px -20px;"></span></li><li id="wmd-image-button" class="wmd-button" style="left: 150px;"><span style="background-position: -100px -20px;"></span></li><li id="wmd-spacer2" class="wmd-spacer" style="left: 175px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-olist-button" class="wmd-button" style="left: 200px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-ulist-button" class="wmd-button" style="left: 225px;"><span style="background-position: -140px -20px;"></span></li><li id="wmd-heading-button" class="wmd-button" style="left: 250px;"><span style="background-position: -160px -20px;"></span></li><li id="wmd-hr-button" class="wmd-button" style="left: 275px;"><span style="background-position: -180px -20px;"></span></li><li id="wmd-spacer3" class="wmd-spacer" style="left: 300px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-undo-button" class="wmd-button" style="left: 325px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-redo-button" class="wmd-button" style="left: 350px;"><span style="background-position: -220px -20px;"></span></li><li class="wmd-spacer wmd-spacer-max"></li></ul></div>
+                        <div class="js-stacks-validation">
+                <div class="ps-relative">
+                    <textarea id="wmd-input" class="wmd-input wz-element s-input bar0" name="post-text" cols="92" rows="15" tabindex="101" data-wz-state="8" data-min-length=""></textarea>
+                </div>
+                <div class="s-input-message mt4 d-none js-stacks-validation-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fl" style="margin-top: 8px; height:24px;">&nbsp;</div>
+    <div id="draft-saved" class="draft-saved community-option fl" style="margin-top: 8px; height:24px; display:none;">draft saved</div>
+
+    <div id="draft-discarded" class="draft-discarded community-option fl" style="margin-top: 8px; height:24px; display:none;">draft discarded</div>
+
+
+
+    <div id="wmd-preview" class="wmd-preview"></div>
+    <div></div>
+    <div class="edit-block">
+        <input id="fkey" name="fkey" type="hidden" value="768a2ba6110a389736566cf2a5f0b70238bc380a11ee0750000ba48dd28a3a94">
+        <input id="author" name="author" type="text">
+    </div>
+
+
+
+</div>
+
+                            <div style="position: relative;">
+                                
+                                            <div class="form-item new-post-login">
+        
+                <div class="new-login-form">
+                    <div class="new-login-left">
+                        <h3>Sign up or <a id="login-link" href="https://stackoverflow.com/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f6930031%2fhow-do-i-convert-ppi-into-dpi-for-android-images%23new-answer">log in</a></h3>
+                        <script>
+                            StackExchange.ready(function () {
+                                StackExchange.helpers.onClickDraftSave('#login-link');
+                            });
+                        </script>
+                        <div class="preferred-login google-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Started - Google&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon native iconGoogle" width="18" height="18" viewBox="0 0 18 18"><g><path d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z" fill="#4285F4"></path><path d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z" fill="#34A853"></path><path d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z" fill="#FBBC05"></path><path d="M8.98 4.18c1.17 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.4L4.5 7.49a4.77 4.77 0 0 1 4.48-3.3z" fill="#EA4335"></path></g></svg> Sign up using Google
+                        </div>
+                        <div class="preferred-login facebook-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Started - Facebook&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon iconFacebook" width="18" height="18" viewBox="0 0 18 18"><path d="M1.88 1C1.4 1 1 1.4 1 1.88v14.24c0 .48.4.88.88.88h7.67v-6.2H7.46V8.4h2.09V6.61c0-2.07 1.26-3.2 3.1-3.2.88 0 1.64.07 1.87.1v2.16h-1.29c-1 0-1.19.48-1.19 1.18V8.4h2.39l-.31 2.42h-2.08V17h4.08c.48 0 .88-.4.88-.88V1.88c0-.48-.4-.88-.88-.88H1.88z" fill="#3C5A96"></path></svg> Sign up using Facebook
+                        </div>
+                        <div class="preferred-login stackexchange-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon native iconLogoGlyphXSm" width="18" height="18" viewBox="0 0 18 18"><g><path fill="#BCBBBB" d="M14 16v-5h2v7H2v-7h2v5z"></path><path d="M5 15v-2h8v2H5zM12.09.72l4.5 6.06-1.2.9-4.51-6.06 1.21-.9zM8.34 4.3l.97-1.16 5.8 4.83-.96 1.16-5.8-4.83zm-1.9 3.36l.64-1.37 6.85 3.19-.63 1.37-6.85-3.2zM5.4 11.39l.38-1.67 7.42 1.48-.22 1.46-7.58-1.27z" fill="#F48024"></path></g></svg> Sign up using Email and Password
+                        </div>
+                    </div>
+                    <input type="hidden" name="manual-openid" class="manual-openid">
+                    <input type="hidden" name="use-facebook" class="use-facebook" value="false">
+                    <input type="hidden" name="use-google" class="use-google" value="false">
+                    <input type="button" class="submit-openid" value="Submit" style="display:none">
+                    <div class="new-login-right">
+                                <h3>Post as a guest</h3>
+    <div class="form-item">
+        <table>
+        <tbody><tr>
+                    <td class="vm">
+                <div>
+                    <label for="display-name">Name</label>
+                    <input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105">
+                </div>
+                <div>
+                    <label for="m-address">Email</label>
+                    <input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown">
+                </div>
+            </td>
+        </tr>
+        </tbody></table>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <script>
+                StackExchange.ready(
+                    function () {
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f6930031%2fhow-do-i-convert-ppi-into-dpi-for-android-images%23new-answer', 'question_page');
+                    }
+                );
+            </script>
+            <noscript>
+                        <h3>Post as a guest</h3>
+    <div class="form-item">
+        <table>
+        <tr>
+                    <td class="vm">
+                <div>
+                    <label for="display-name">Name</label>
+                    <input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105">
+                </div>
+                <div>
+                    <label for="m-address">Email</label>
+                    <input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown" />
+                </div>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+            </noscript>
+
+                            </div>
+
+                                                            <div class="form-submit cbt grid gsx gs4">
+                                        <button id="submit-button" class="grid--cell s-btn s-btn__primary" type="submit" tabindex="120" autocomplete="off">
+Post Your Answer                                        </button>
+                                        <button class="grid--cell s-btn s-btn__danger discard-answer dno">Discard</button>
+                                                                            <p class="privacy-policy-agreement">
+                                            
+
+By clicking "Post Your Answer", you acknowledge that you have read our updated <a href="https://stackoverflow.com/legal/terms-of-service/public" name="tos" target="_blank" class="-link">terms of service</a>, <a href="https://stackoverflow.com/legal/privacy-policy" name="privacy" target="_blank" class="-link">privacy policy</a> and <a href="https://stackoverflow.com/legal/cookie-policy" name="cookie" target="_blank" class="-link">cookie policy</a>, and that your continued use of the website is subject to these policies.
+
+<input type="hidden" name="legalLinksShown" value="1">
+                                        </p>
+                                </div>
+                        </form>
+
+
+
+                        <h2 class="bottom-notice" data-loc="1">
+Not the answer you're looking for?                            Browse other questions tagged <a href="https://stackoverflow.com/questions/tagged/android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="https://stackoverflow.com/questions/tagged/dpi" class="post-tag" title="show questions tagged &#39;dpi&#39;" rel="tag">dpi</a>  or <a href="https://stackoverflow.com/questions/ask">ask your own question</a>.                        </h2>
+            </div>
+        </div>
+                <div id="sidebar" class="show-votes" role="complementary" aria-label="sidebar">
+                            <div class="module question-stats">
+                    <table id="qinfo">
+                        <tbody><tr>
+                            <td>
+                                <p class="label-key">asked</p>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <p class="label-key" title="2011-08-03 16:42:22Z"><b>7 years, 3 months ago</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="label-key">viewed</p>
+                            </td>
+
+                            <td style="padding-left: 10px">
+                                <p class="label-key">
+                                    <b>30,633 times</b>
+                                </p>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    <p class="label-key">active</p>
+                                </td>
+                                <td style="padding-left: 10px">
+                                    <p class="label-key"><b><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images?lastactivity" class="lastactivity-link" title="2013-01-10 21:52:33Z">5 years, 10 months ago</a></b></p>
+                                </td>
+                            </tr>
+                    </tbody></table>
+                </div>
+            
+<div id="dfp-tsb" class="everyonelovesstackoverflow everyoneloves__top-sidebar" data-clc-stalled="true"></div>
+            <div id="hireme"></div>
+<script>;try{(function(a){function b(a){return'string'==typeof a?document.getElementById(a):a}function c(a){return a=b(a),!!a&&'none'===getComputedStyle(a).display}function d(a){return!c(a)}function e(a){return!!a}function f(a){return /^\s*$/.test(b(a).innerHTML)}function g(a){var b=a.style;b.height=b.maxHeight=b.minHeight='auto',b.display='none',[].forEach.call(a.children,g)}function h(a,b){var c;return function(){return a&&(c=a.call(b||this,arguments),a=null),c}}function i(a){var b=document.createElement('script');b.src=a,document.body.appendChild(b)}function j(a){return k([],a)}function k(a,b){return a.push=function(a){return b(),delete this.push,this.push(a)},a}function l(){try{return!new Function('return async()=>{};')}catch(a){return!0}}function m(){return'undefined'!=typeof googletag&&!!googletag.apiReady}function n(){m()||(googletag={cmd:j(A)})}function o(){var a=document.createElement('div');a.className='adsbox',a.id='clc-abd',a.style.position='absolute',a.style.pointerEvents='none',a.innerHTML='&nbsp;',document.body.appendChild(a)}function p(a){var b=a.serviceName,c=a.slot,d=a.lineItemId;try{var e=c.getSlotElementId(),f=[];e||f.push('id=0');var h=document.getElementById(e);if(!e||h?h.hasAttribute('data-clc-stalled')&&f.push('st=1'):f.push('el=0'),0!==f.length)return void B(f.join('&'));-1===x.dh.indexOf(d)?h.setAttribute('data-clc-prefilled','true'):g(h),h.setAttribute('data-clc-ready','true')}catch(a){var i=document.querySelector('#dfp-tsb, #dfp-isb, #clc-tsb');i&&i.setAttribute('data-clc-ready','true'),B('e=1')}}function q(){return Object.keys(F.ids)}function r(a){var b=F.ids[a],c=F.slots[b];'function'==typeof c&&(c=c(a));return{path:'/'+C+'/'+E+'/'+b+'/'+D,sizes:c,zone:b}}function s(a){return!(clc.collapse&&void 0!==clc.collapse[a])||!!clc.collapse[a]}function t(a,b){'dfp-isb'===a&&b.setTargeting('Sidebar',['Inline']),'dfp-tsb'===a&&b.setTargeting('Sidebar',['Right']);var c=r(a),d=c.path,e=c.sizes,f=c.zone,g=googletag.defineSlot(d,e,a);s(f)&&g.setCollapseEmptyDiv(!0,!0),g.addService(b),!1}function u(b){var c=a.dfp&&a.dfp.targeting||{};Object.keys(c).forEach(function(a){b.setTargeting(a,c[a])})}function v(a){var g=a.map(b).filter(e);return{eligible:g.filter(f).filter(d).map(function(a){return a.id}),ineligible:g.filter(c)}}function w(b){if(void 0===b&&(b=q()),!m())return n(),void googletag.cmd.push(function(){return w(b)});var c=v(b),d=c.eligible,e=c.ineligible;if(e.forEach(g),0!==d.length){o(),googletag.destroySlots();var f=googletag.pubads();f.enableSingleRequest(),a.sreEvent||(f.addEventListener('slotRenderEnded',p),a.sreEvent=!0),u(f),d.forEach(function(a){return t(a,f)}),googletag.enableServices(),d.forEach(function(a){googletag.display(a)})}}var x=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a}({"lib":"https://cdn.sstatic.net/clc/clc.min.js?v=04d772c81312","style":"https://cdn.sstatic.net/clc/styles/clc.min.css?v=1db48f495ba1","u":"https://clc.stackoverflow.com/markup.js","wa":true,"kt":2000,"tto":true,"h":"clc.stackoverflow.com","allowed":"^(((talent\\.)?stackoverflow)|(blog\\.codinghorror)|(serverfault|askubuntu)|([^\\.]+\\.stackexchange))\\.com$","wv":true,"al":false,"dh":[4385506061,4386578282,4386579572]},a.options||{}),y=h(function(){var a=x.lib;l()&&(a=a.replace(/(\.min)?\.js(\?v=[0-9a-fA-F]+)?$/,'.ie$1.js$2')),i(a)}),z=a.cmd||[];Array.isArray(z)&&(0<z.length?y():k(z,y));var A=h(function(){i('https://www.googletagservices.com/tag/js/gpt.js')}),B=function(a){new Image().src='https://'+x.h+'/stalled.gif?'+a},C='248424177',D=/^\/tags\//.test(location.pathname)||/^\/questions\/tagged\//.test(location.pathname)?'tag-pages':'question-pages',E=location.hostname;var F={slots:{lb:[[728,90]],mlb:[[728,90]],sb:function(a){return'dfp-tsb'===a?[[300,250],[300,600]]:[[300,250]]},"tag-sponsorship":[[730,135]],"mobile-below-question":[[320,50],[300,250]]},ids:{"dfp-tlb":'lb',"dfp-mlb":'mlb',"dfp-tsb":'sb',"dfp-isb":'sb',"dfp-tag":'tag-sponsorship',"dfp-m-aq":'mobile-below-question',"clc-tlb":'lb',"clc-mlb":'mlb',"clc-tsb":'sb'}};(function(){var b=x.al;b&&z.push(function(){return a.load()})})(),n(),a.dfp={load:w},a.options=x,a.cmd=z})(this.clc=this.clc||{})}catch(a){window.console.error(a)}</script>            <script>
+                var clc = clc || {};
+                clc.collapse = { sb: !0,'tag-sponsorship':!0,lb:!1,mlb:!1,'mobile-below-question':!0};
+                clc.cmd = clc.cmd || [];
+                clc.cmd.push(function () { window.clc_request='AtTIJW7wRtYIAAAAAG--aQACAAAAAgAAAAANAAAAfGFuZHJvaWR8ZHBpfACFJn621Njws2Rf'; clc.load(); });
+                                clc.dfp = clc.dfp || {};
+                clc.dfp.targeting = {Registered:['false'],'so-tag':['android','dpi']};
+                
+                var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                googletag.cmd.push(function () { clc.dfp.load(); });
+            </script>
+            <div class="module sidebar-linked">
+	<h4 id="h-linked">Linked</h4>
+	<div class="linked" data-tracker="lq=1">
+
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/19490506?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/19490506/set-images-for-multiple-devices-which-has-different-ppi-pixels?noredirect=1&amp;lq=1" class="question-hyperlink">set images for multiple devices which has different ppi pixels</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/9447427?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">2</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/9447427/which-options-to-choose-when-exporting-from-adobe-illustrator-for-png-for-andro?noredirect=1&amp;lq=1" class="question-hyperlink">Which options to choose when exporting from Adobe Illustrator for .png for Android?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/11498986?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">2</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/11498986/android-ldpi-mdpi-hdpi-clarification?noredirect=1&amp;lq=1" class="question-hyperlink">Android. ldpi, mdpi, hdpi clarification</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/12918153?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/12918153/android-screen-size-resolution-aspect-ratio?noredirect=1&amp;lq=1" class="question-hyperlink">Android screen size resolution aspect ratio</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/11446186?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/11446186/android-xhdpi-folder?noredirect=1&amp;lq=1" class="question-hyperlink">Android. xhdpi folder</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/35469037?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">2</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/35469037/what-is-the-difference-between-ppi-vs-dpi?noredirect=1&amp;lq=1" class="question-hyperlink">What is the difference between ppi vs dpi?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/7347226?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">2</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/7347226/dpi-for-picture-sizing-in-android?noredirect=1&amp;lq=1" class="question-hyperlink">DPI for picture sizing in Android</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/22141309?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">1</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/22141309/whats-android-dpi?noredirect=1&amp;lq=1" class="question-hyperlink">what's android DPI</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/10790125?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">1</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/10790125/how-to-get-correct-width-and-hight-for-android?noredirect=1&amp;lq=1" class="question-hyperlink">How to get correct width and hight for android?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/12189558?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/12189558/ppi-pixel-density-new-confuse?noredirect=1&amp;lq=1" class="question-hyperlink">PPI PIXEL DENSITY new confuse</a>
+</div>					<div class="spacer more">
+				<a href="https://stackoverflow.com/questions/linked/6930031?lq=1">see more linked questions…</a>
+			</div>
+	</div>
+</div>
+
+                <div class="module sidebar-related">
+                    <h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/101754?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1985</div></a><a href="https://stackoverflow.com/questions/101754/is-there-a-way-to-run-python-on-android?rq=1" class="question-hyperlink">Is there a way to run Python on Android?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/151777?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">2305</div></a><a href="https://stackoverflow.com/questions/151777/saving-android-activity-state-using-save-instance-state?rq=1" class="question-hyperlink">Saving Android Activity state using Save Instance State</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/541966?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1775</div></a><a href="https://stackoverflow.com/questions/541966/lazy-load-of-images-in-listview?rq=1" class="question-hyperlink">Lazy load of images in ListView</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/1109022?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">3233</div></a><a href="https://stackoverflow.com/questions/1109022/close-hide-the-android-soft-keyboard?rq=1" class="question-hyperlink">Close/hide the Android Soft Keyboard</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/1554099?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes extra-large">3164</div></a><a href="https://stackoverflow.com/questions/1554099/why-is-the-android-emulator-so-slow-how-can-we-speed-up-the-android-emulator?rq=1" class="question-hyperlink">Why is the Android emulator so slow? How can we speed up the Android emulator?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/2785485?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">2388</div></a><a href="https://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id?rq=1" class="question-hyperlink">Is there a unique Android device ID?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/4605527?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes large">691</div></a><a href="https://stackoverflow.com/questions/4605527/converting-pixels-to-dp?rq=1" class="question-hyperlink">Converting pixels to dp</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/13375357?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">3230</div></a><a href="https://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat?rq=1" class="question-hyperlink">Proper use cases for Android UserManager.isUserAGoat()?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/22141309?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">1</div></a><a href="https://stackoverflow.com/questions/22141309/whats-android-dpi?rq=1" class="question-hyperlink">what's android DPI</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/32549719?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">2</div></a><a href="https://stackoverflow.com/questions/32549719/android-screen-density-dpi-vs-ppi?rq=1" class="question-hyperlink">Android screen density dpi vs ppi</a></div>
+                    </div>
+                </div>
+
+<div id="hot-network-questions" class="module tex2jax_ignore">
+    <h4>
+        <a href="https://stackexchange.com/questions?tab=hot" class="js-gps-track s-link s-link__inherit" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li>
+                <div class="favicon favicon-cooking" title="Seasoned Advice"></div><a href="https://cooking.stackexchange.com/questions/93741/how-do-i-remove-oil-from-soup" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:49 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How do I remove oil from soup?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="https://english.stackexchange.com/questions/472200/what-would-this-be-called" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:97 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What would this be called?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="https://rpg.stackexchange.com/questions/134899/what-are-the-rules-for-pc-pc-seduction-attempts" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What are the rules for PC-PC seduction attempts?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-physics" title="Physics Stack Exchange"></div><a href="https://physics.stackexchange.com/questions/440007/why-does-the-vacuum-even-have-permeability-and-permittivity" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why does the vacuum even have permeability and permittivity?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/119646/what-are-the-benefits-of-becoming-an-academic-administrator" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What are the benefits of becoming an academic administrator?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="https://rpg.stackexchange.com/questions/135241/is-there-any-way-to-decrease-the-chance-of-never-being-able-to-cast-wish-again" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is there any way to decrease the chance of never being able to cast Wish again?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-bitcoin" title="Bitcoin Stack Exchange"></div><a href="https://bitcoin.stackexchange.com/questions/80876/how-do-block-explorers-determine-propagation-through-nodes-p2p-protocol" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:308 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How do block explorers determine propagation through nodes/P2P protocol?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-german" title="German Language Stack Exchange"></div><a href="https://german.stackexchange.com/questions/47880/auskopplungen-in-musical-context" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    "Auskopplungen" in musical context
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="https://mathoverflow.net/questions/314913/a-character-identity" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    A character identity
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-outdoors" title="The Great Outdoors Stack Exchange"></div><a href="https://outdoors.stackexchange.com/questions/20940/how-do-you-take-field-notes-at-below-0c-without-freezing-fingers" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:395 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How do you take field notes at below 0°C, without freezing fingers?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="https://unix.stackexchange.com/questions/480656/how-can-i-check-if-a-file-can-be-created-or-truncated-overwritten-in-bash" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How can I check if a file can be created or truncated/overwritten in bash?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/175485/the-first-the-last-and-everything-between" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    The first, the last, and everything between
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-latin" title="Latin Language Stack Exchange"></div><a href="https://latin.stackexchange.com/questions/7502/what-was-the-sibilant-in-%ce%b8%ce%ac%ce%bb%ce%b1%cf%83%cf%83%ce%b1" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:644 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What was the sibilant in θάλασσα?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="https://electronics.stackexchange.com/questions/405888/relationship-between-i2c-drawn-energy-power-consumption-and-data-rate" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Relationship between I2C drawn energy / power consumption and data rate
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/129536/best-strategy-against-anti-material-monsters" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Best strategy against anti-material monsters
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="https://superuser.com/questions/1373841/using-an-rj45-to-d9-rs232-adaptor-with-a-laptop-to-control-an-rs232-device" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Using an Rj45 to D9 RS232 Adaptor with a laptop to control an RS232 device
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/129626/simplest-explanation-for-societies-to-know-about-only-one-kind-of-magic-of-the-t" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Simplest explanation for societies to know about only one kind of magic of the two existing ones?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/122351/should-i-ask-for-a-pay-raise-for-employees-i-manage" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Should I ask for a pay raise for employees I manage?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-cs" title="Computer Science Stack Exchange"></div><a href="https://cs.stackexchange.com/questions/99806/control-flow-statements-explained" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:419 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Control Flow Statements Explained
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/129519/multiple-keys-multiple-doors-any-key-fits-any-door-but-a-key-can-onl" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Multiple "keys," multiple "doors". Any "key" fits any "door" but a "key" can only be used once. How could such mechanic be described lore-wise?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="https://mathematica.stackexchange.com/questions/185720/plot-values-of-matrixplot-as-well-as-the-matrixplot-itself-inside-manipulate" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Plot values of matrixplot as well as the matrixplot itself inside Manipulate
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-outdoors" title="The Great Outdoors Stack Exchange"></div><a href="https://outdoors.stackexchange.com/questions/21009/why-should-a-good-tent-be-uv-resistant" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:395 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why should a good tent be UV resistant?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="https://tex.stackexchange.com/questions/459192/equation-brackets" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Equation - brackets
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/175619/draw-this-diamond-pattern" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Draw this diamond pattern
+                </a>
+
+            </li>
+    </ul>
+
+        
+</div>
+
+<div id="feed-link">
+    <a href="https://stackoverflow.com/feeds/question/6930031" title="feed of this question and its answers">
+        <svg aria-hidden="true" class="svg-icon fc-orange-400 iconRss" width="18" height="18" viewBox="0 0 18 18"><path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z"></path></svg>
+        question feed
+    </a>
+</div>
+        </div>
+    </div>
+<script>StackExchange.ready(function(){$.get('/posts/6930031/ivc/3ea2');});</script>
+<noscript><div><img src="/posts/6930031/ivc/3ea2" class="dno" alt="" width="0" height="0"></div></noscript><div style="display:none" id="prettify-lang">default</div></div>
+
+
+        </div>
+    </div><script src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/clc.min.js.download"></script><script src="./How do I convert ppi into dpi for Android images_ - Stack Overflow_files/gpt.js.download"></script>
+
+    <footer id="footer" class="site-footer js-footer" role="contentinfo">
+        <div class="site-footer--container">
+                <div class="site-footer--logo">
+
+                    
+                    <a href="https://stackoverflow.com/"><svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewBox="0 0 32 37"><g><path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z"></path><path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024"></path></g></svg></a>
+                </div>
+            
+            <nav class="site-footer--nav">
+                    <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                        <h5 class="-title"><a href="https://stackoverflow.com/" class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 15})">Stack Overflow</a></h5>
+                        <ul class="-list js-primary-footer-links">
+                            <li class="-item"><a href="https://stackoverflow.com/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 16})">Questions</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 17})">Jobs</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 11})">Developer Jobs Directory</a></li>
+                                     <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 28})">Salary Calculator</a></li>
+                                                            <li class="-item"><a href="https://stackoverflow.com/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 3 })">Help</a></li>
+                                <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 12 })">Mobile</a></li>
+                        <li class="-item"><a class="-link" role="button">Disable Responsiveness</a></li></ul>
+                    </div>
+                    <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                        <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/" class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 19 })">Products</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://stackoverflow.com/teams" class="js-gps-track -link" data-ga="[&quot;teams traffic&quot;,&quot;footer - site nav&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]" data-gps-track="footer.click({ location: 2, link: 29 })">Teams</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 20 })">Talent</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 21 })">Engagement</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 22 })">Enterprise</a></li>
+                        </ul>
+                    </div>
+                <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                    <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5>
+                    <ul class="-list">
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li>
+                                                <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 7 })" href="https://stackoverflow.com/legal">Legal</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">Privacy Policy</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="site-footer--col site-footer--categories-nav site-footer--col__visible">
+                    <a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="site-footer--back js-footer-back"><svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewBox="0 0 18 18"><path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z"></path></svg></a>
+                    <div>
+                        <h5 class="-title"><a href="https://stackexchange.com/">Stack Exchange<br> Network</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Technology">Technology</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Life / Arts">Life / Arts</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Science">Science</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/6930031/how-do-i-convert-ppi-into-dpi-for-android-images#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Other">Other</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="site-footer--categories">
+                    <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+        <ul class="-list">
+                <li class="-item"><a href="https://stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                <li class="-item"><a href="https://serverfault.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li>
+                <li class="-item"><a href="https://superuser.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li>
+                <li class="-item"><a href="https://webapps.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li>
+                <li class="-item"><a href="https://askubuntu.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                <li class="-item"><a href="https://webmasters.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li>
+                <li class="-item"><a href="https://gamedev.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://tex.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                <li class="-item"><a href="https://softwareengineering.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li>
+                <li class="-item"><a href="https://unix.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                <li class="-item"><a href="https://apple.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                <li class="-item"><a href="https://wordpress.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li>
+                <li class="-item"><a href="https://gis.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                <li class="-item"><a href="https://electronics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://android.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                <li class="-item"><a href="https://security.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li>
+                <li class="-item"><a href="https://dba.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                <li class="-item"><a href="https://drupal.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li>
+                <li class="-item"><a href="https://sharepoint.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li>
+                <li class="-item"><a href="https://ux.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li>
+                <li class="-item"><a href="https://mathematica.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://salesforce.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                <li class="-item"><a href="https://expressionengine.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li>
+                <li class="-item"><a href="https://pt.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li>
+                <li class="-item"><a href="https://blender.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li>
+                <li class="-item"><a href="https://networkengineering.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li>
+                <li class="-item"><a href="https://crypto.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+                <li class="-item"><a href="https://codereview.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://magento.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li>
+                <li class="-item"><a href="https://softwarerecs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li>
+                <li class="-item"><a href="https://dsp.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+                <li class="-item"><a href="https://emacs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li>
+                <li class="-item"><a href="https://raspberrypi.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+                <li class="-item"><a href="https://ru.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li>
+                <li class="-item"><a href="https://codegolf.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://es.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li>
+                <li class="-item"><a href="https://ethereum.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li>
+                <li class="-item"><a href="https://datascience.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li>
+                <li class="-item"><a href="https://arduino.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li>
+                <li class="-item"><a href="https://bitcoin.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (30)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+        <ul class="-list">
+                <li class="-item"><a href="https://photo.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                <li class="-item"><a href="https://scifi.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                <li class="-item"><a href="https://graphicdesign.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                <li class="-item"><a href="https://movies.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                <li class="-item"><a href="https://music.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+                <li class="-item"><a href="https://worldbuilding.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li>
+                <li class="-item"><a href="https://cooking.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"><ul class="-list">
+                <li class="-item"><a href="https://diy.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li>
+                <li class="-item"><a href="https://money.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                <li class="-item"><a href="https://academia.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li>
+                <li class="-item"><a href="https://law.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (15)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+        <ul class="-list">
+                <li class="-item"><a href="https://english.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                <li class="-item"><a href="https://skeptics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li>
+                <li class="-item"><a href="https://judaism.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                <li class="-item"><a href="https://travel.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li>
+                <li class="-item"><a href="https://christianity.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                <li class="-item"><a href="https://ell.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li>
+                <li class="-item"><a href="https://japanese.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"><ul class="-list">
+                <li class="-item"><a href="https://gaming.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                <li class="-item"><a href="https://bicycles.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                <li class="-item"><a href="https://rpg.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                <li class="-item"><a href="https://anime.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li>
+                <li class="-item"><a href="https://puzzling.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li>
+                <li class="-item"><a href="https://mechanics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (33)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+        <ul class="-list">
+                <li class="-item"><a href="https://mathoverflow.net/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li>
+                <li class="-item"><a href="https://math.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                <li class="-item"><a href="https://stats.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                <li class="-item"><a href="https://cstheory.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                <li class="-item"><a href="https://physics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li>
+                <li class="-item"><a href="https://chemistry.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers, and students in the field of chemistry">Chemistry</a></li>
+                <li class="-item"><a href="https://biology.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Science"><ul class="-list">
+                <li class="-item"><a href="https://cs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+                <li class="-item"><a href="https://philosophy.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (10)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Other">
+        <ul class="-list">
+                <li class="-item"><a href="https://meta.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                <li class="-item"><a href="https://stackapps.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                <li class="-item"><a href="https://api.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li>
+                <li class="-item"><a href="https://data.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li>
+                <li class="-item"><a href="https://area51.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                    </ul>
+    </div>
+                </div>
+            </nav>
+            <div class="site-footer--copyright fs-fine">
+                <ul class="-list">
+                    <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link:4 })" href="https://stackoverflow.blog/?blb=1">Blog</a></li>
+                    <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li>
+                    <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li>
+                    <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li>
+                </ul>
+
+                <p class="mt-auto mb24">
+site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a>
+                            with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>.
+                    <span id="svnrev">rev&nbsp;2018.11.9.32132</span>
+                </p>
+            </div>
+        </div>
+
+            </footer>
+            <script>StackExchange.ready(function () { StackExchange.responsiveness.addSwitcher(); })</script>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled
+            <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno">
+        </div>
+    </noscript>
+
+<script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ]
+                });
+
+
+
+                    StackExchange.ga.setDimension('dimension2', '|android|dpi|');
+
+                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
+
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>
+            
+    
+    
+</body></html>

@@ -43,4 +43,16 @@ void *getAssetFileToBuffer(android_app* state, const char *pFileName, size_t &si
  return pBuffer; 
 }
 
+void CopyFloat16ToMatrix(MatrixXf &mf, float *mfa) {
+ for (int cnt = 0; cnt < 16; cnt++) {
+  mf(cnt) = mfa[cnt];
+ }
+}
+void CopyMatrix16ToFloat(MatrixXf &mf, float *mfa) {
+ for (int cnt = 0; cnt < 16; cnt++) {
+  mfa[cnt] = mf(cnt);
+ }
+}
+
+
 

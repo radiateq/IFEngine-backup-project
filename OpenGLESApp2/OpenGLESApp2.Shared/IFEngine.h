@@ -34,12 +34,18 @@ typedef struct{
  //UV
  ifTCounter UVmapping_cnt;
  ifTUVmapping *UVmapping;
+ //matrix model
+ //GL_MODELVIEW, GL_TEXTURE
+ GLfloat modelview_matrix[16], texture_matrix[16];
+ //Texture name
+ GLuint texture_ID;
+ //Normals (included in box2d b2_shape if needed
 }ifTbodyDefinition;
 
 //Structure holding list of bodies
 typedef struct{
  ifTCounter bodies_cnt;
- ifTbodyDefinition *bodies;
+ ifTbodyDefinition **bodies;
 }ifTbodiesList;
 
 //General callback function, that accepts pointer to void and returns pointer to void
@@ -64,16 +70,9 @@ typedef struct {
 }ifTeventRegistry;
 
 
+extern ifTbodiesList BodiesList;
+//
 
-//Structure holding events body reacts to
 
-
-
-//Functions for adding, removing, searching for a body in a list of bodies
-
-//Functions for manipulating properties of body
-
-//Function for presenting body to the screen (update, draw, ...)
-
-//Functions for propagating events
-
+void PrepareDraw();
+void DrawBodies();

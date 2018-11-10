@@ -11,9 +11,17 @@
 
 #include "android_fopen.h"
 
+#include <Eigen/Dense>
+using Eigen::MatrixXf;
+
+#define IF_NULL_DELETE(PARAM) if( NULL != PARAM ) { delete PARAM; PARAM = NULL; }
+#define IF_NULL_DELETE_ARRAY(PARAM) if( NULL != PARAM ) { delete [] PARAM; PARAM = NULL; }
+
+
 int64_t timespec2ms64(struct timespec *pt);
 int64_t timespec2us64(struct timespec *pt);
 void *getAssetFileToBuffer(android_app* state, const char *pFileName, size_t &size);
+
 
 //Usage example
 //int64_t xxval = timespec2ms64(&t0);
@@ -100,8 +108,9 @@ public:
 
 
 
-#define IF_NULL_DELETE(PARAM) if( NULL != PARAM ) { delete PARAM; PARAM = NULL; }
-#define IF_NULL_DELETE_ARRAY(PARAM) if( NULL != PARAM ) { delete [] PARAM; PARAM = NULL; }
+
+void CopyFloat16ToMatrix(MatrixXf &mf, float *mfa);
+void CopyMatrix16ToFloat(MatrixXf &mf, float *mfa);
 
 
 
